@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script
+    src="/static/theme_api/v2/turbolinks-2.5.3-format-b802e11287adb103d1cb3e2f99426bc12854d0b0f06d9463b37099f7b814e087.js"></script>
+
+
+
+
+
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta content='text/html; charset=utf-8' http-equiv='Content-Type' />
+  <script
+    type="text/javascript">window.NREUM || (NREUM = {}); NREUM.info = { "beacon": "bam.nr-data.net", "errorBeacon": "bam.nr-data.net", "licenseKey": "dcbde81dc9", "applicationID": "77525617", "transactionName": "IlsMTEJWDl4ERBZIEwNYC1sfSgpdFg==", "queueTime": 2, "applicationTime": 378, "agent": "" }</script>
+  <script
+    type="text/javascript">(window.NREUM || (NREUM = {})).init = { ajax: { deny_list: ["bam.nr-data.net"] } }; (window.NREUM || (NREUM = {})).loader_config = { xpid: "VQAAUVBXChAHU1RQAgcGUQ==", licenseKey: "dcbde81dc9", applicationID: "77525617" };;/*! For license information please see nr-loader-full-1.244.0.min.js.LICENSE.txt */
+      (() => { "use strict"; var e, t, r = { 234: (e, t, r) => { r.d(t, { P_: () => g, Mt: () => v, C5: () => s, DL: () => x, OP: () => j, lF: () => C, Yu: () => A, Dg: () => m, CX: () => c, GE: () => w, sU: () => S }); var n = r(8632), i = r(9567); const a = { beacon: n.ce.beacon, errorBeacon: n.ce.errorBeacon, licenseKey: void 0, applicationID: void 0, sa: void 0, queueTime: void 0, applicationTime: void 0, ttGuid: void 0, user: void 0, account: void 0, product: void 0, extra: void 0, jsAttributes: {}, userAttributes: void 0, atts: void 0, transactionName: void 0, tNamePlain: void 0 }, o = {}; function s(e) { if (!e) throw new Error("All info objects require an agent identifier!"); if (!o[e]) throw new Error("Info for ".concat(e, " was never set")); return o[e] } function c(e, t) { if (!e) throw new Error("All info objects require an agent identifier!"); o[e] = (0, i.D)(t, a), (0, n.Qy)(e, o[e], "info") } const d = e => { if (!e || "string" != typeof e) return !1; try { document.createDocumentFragment().querySelector(e) } catch { return !1 } return !0 }; var u = r(7056), l = r(50); const f = () => { const e = { mask_selector: "*", block_selector: "[data-nr-block]", mask_input_options: { color: !1, date: !1, "datetime-local": !1, email: !1, month: !1, number: !1, range: !1, search: !1, tel: !1, text: !1, time: !1, url: !1, week: !1, textarea: !1, select: !1, password: !0 } }; return { proxy: { assets: void 0, beacon: void 0 }, privacy: { cookies_enabled: !0 }, ajax: { deny_list: void 0, block_internal: !0, enabled: !0, harvestTimeSeconds: 10, autoStart: !0 }, distributed_tracing: { enabled: void 0, exclude_newrelic_header: void 0, cors_use_newrelic_header: void 0, cors_use_tracecontext_headers: void 0, allowed_origins: void 0 }, session: { domain: void 0, expiresMs: u.oD, inactiveMs: u.Hb }, ssl: void 0, obfuscate: void 0, jserrors: { enabled: !0, harvestTimeSeconds: 10, autoStart: !0 }, metrics: { enabled: !0, autoStart: !0 }, page_action: { enabled: !0, harvestTimeSeconds: 30, autoStart: !0 }, page_view_event: { enabled: !0, autoStart: !0 }, page_view_timing: { enabled: !0, harvestTimeSeconds: 30, long_task: !1, autoStart: !0 }, session_trace: { enabled: !0, harvestTimeSeconds: 10, autoStart: !0 }, harvest: { tooManyRequestsDelay: 60 }, session_replay: { autoStart: !0, enabled: !1, harvestTimeSeconds: 60, sampling_rate: 50, error_sampling_rate: 50, collect_fonts: !1, inline_images: !1, inline_stylesheet: !0, mask_all_inputs: !0, get mask_text_selector() { return e.mask_selector }, set mask_text_selector(t) { d(t) ? e.mask_selector = t + ",[data-nr-mask]" : null === t ? e.mask_selector = t : (0, l.Z)("An invalid session_replay.mask_selector was provided and will not be used", t) }, get block_class() { return "nr-block" }, get ignore_class() { return "nr-ignore" }, get mask_text_class() { return "nr-mask" }, get block_selector() { return e.block_selector }, set block_selector(t) { d(t) ? e.block_selector += ",".concat(t) : "" !== t && (0, l.Z)("An invalid session_replay.block_selector was provided and will not be used", t) }, get mask_input_options() { return e.mask_input_options }, set mask_input_options(t) { t && "object" == typeof t ? e.mask_input_options = { ...t, password: !0 } : (0, l.Z)("An invalid session_replay.mask_input_option was provided and will not be used", t) } }, spa: { enabled: !0, harvestTimeSeconds: 10, autoStart: !0 } } }, h = {}, p = "All configuration objects require an agent identifier!"; function g(e) { if (!e) throw new Error(p); if (!h[e]) throw new Error("Configuration for ".concat(e, " was never set")); return h[e] } function m(e, t) { if (!e) throw new Error(p); h[e] = (0, i.D)(t, f()), (0, n.Qy)(e, h[e], "config") } function v(e, t) { if (!e) throw new Error(p); var r = g(e); if (r) { for (var n = t.split("."), i = 0; i < n.length - 1; i++)if ("object" != typeof (r = r[n[i]])) return; r = r[n[n.length - 1]] } return r } const b = { accountID: void 0, trustKey: void 0, agentID: void 0, licenseKey: void 0, applicationID: void 0, xpid: void 0 }, y = {}; function x(e) { if (!e) throw new Error("All loader-config objects require an agent identifier!"); if (!y[e]) throw new Error("LoaderConfig for ".concat(e, " was never set")); return y[e] } function w(e, t) { if (!e) throw new Error("All loader-config objects require an agent identifier!"); y[e] = (0, i.D)(t, b), (0, n.Qy)(e, y[e], "loader_config") } const A = (0, n.mF)().o; var _ = r(385), E = r(6818); const T = { buildEnv: E.Re, customTransaction: void 0, disabled: !1, distMethod: E.gF, isolatedBacklog: !1, loaderType: void 0, maxBytes: 3e4, offset: Math.floor(_._A?.performance?.timeOrigin || _._A?.performance?.timing?.navigationStart || Date.now()), onerror: void 0, origin: "" + _._A.location, ptid: void 0, releaseIds: {}, session: void 0, xhrWrappable: "function" == typeof _._A.XMLHttpRequest?.prototype?.addEventListener, version: E.q4, denyList: void 0 }, D = {}; function j(e) { if (!e) throw new Error("All runtime objects require an agent identifier!"); if (!D[e]) throw new Error("Runtime for ".concat(e, " was never set")); return D[e] } function S(e, t) { if (!e) throw new Error("All runtime objects require an agent identifier!"); D[e] = (0, i.D)(t, T), (0, n.Qy)(e, D[e], "runtime") } function C(e) { return function (e) { try { const t = s(e); return !!t.licenseKey && !!t.errorBeacon && !!t.applicationID } catch (e) { return !1 } }(e) } }, 9567: (e, t, r) => { r.d(t, { D: () => i }); var n = r(50); function i(e, t) { try { if (!e || "object" != typeof e) return (0, n.Z)("Setting a Configurable requires an object as input"); if (!t || "object" != typeof t) return (0, n.Z)("Setting a Configurable requires a model to set its initial properties"); const r = Object.create(Object.getPrototypeOf(t), Object.getOwnPropertyDescriptors(t)), a = 0 === Object.keys(r).length ? e : r; for (let o in a) if (void 0 !== e[o]) try { "object" == typeof e[o] && "object" == typeof t[o] ? r[o] = i(e[o], t[o]) : r[o] = e[o] } catch (e) { (0, n.Z)("An error occurred while setting a property of a Configurable", e) } return r } catch (e) { (0, n.Z)("An error occured while setting a Configurable", e) } } }, 6818: (e, t, r) => { r.d(t, { Re: () => i, gF: () => a, lF: () => o, q4: () => n }); const n = "1.244.0", i = "PROD", a = "CDN", o = "2.0.0-alpha.11" }, 385: (e, t, r) => { r.d(t, { FN: () => s, IF: () => u, Nk: () => f, Tt: () => c, _A: () => a, cv: () => h, iS: () => o, il: () => n, ux: () => d, v6: () => i, w1: () => l }); const n = "undefined" != typeof window && !!window.document, i = "undefined" != typeof WorkerGlobalScope && ("undefined" != typeof self && self instanceof WorkerGlobalScope && self.navigator instanceof WorkerNavigator || "undefined" != typeof globalThis && globalThis instanceof WorkerGlobalScope && globalThis.navigator instanceof WorkerNavigator), a = n ? window : "undefined" != typeof WorkerGlobalScope && ("undefined" != typeof self && self instanceof WorkerGlobalScope && self || "undefined" != typeof globalThis && globalThis instanceof WorkerGlobalScope && globalThis), o = Boolean("hidden" === a?.document?.visibilityState), s = "" + a?.location, c = /iPad|iPhone|iPod/.test(a.navigator?.userAgent), d = c && "undefined" == typeof SharedWorker, u = (() => { const e = a.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/); return Array.isArray(e) && e.length >= 2 ? +e[1] : 0 })(), l = Boolean(n && window.document.documentMode), f = !!a.navigator?.sendBeacon, h = Math.floor(a?.performance?.timeOrigin || a?.performance?.timing?.navigationStart || Date.now()) }, 1117: (e, t, r) => { r.d(t, { w: () => a }); var n = r(50); const i = { agentIdentifier: "", ee: void 0 }; class a { constructor(e) { try { if ("object" != typeof e) return (0, n.Z)("shared context requires an object as input"); this.sharedContext = {}, Object.assign(this.sharedContext, i), Object.entries(e).forEach((e => { let [t, r] = e; Object.keys(i).includes(t) && (this.sharedContext[t] = r) })) } catch (e) { (0, n.Z)("An error occured while setting SharedContext", e) } } } }, 8e3: (e, t, r) => { r.d(t, { L: () => u, R: () => c }); var n = r(8325), i = r(1284), a = r(4322), o = r(3325); const s = {}; function c(e, t) { const r = { staged: !1, priority: o.p[t] || 0 }; d(e), s[e].get(t) || s[e].set(t, r) } function d(e) { e && (s[e] || (s[e] = new Map)) } function u() { let e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : "", t = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : "feature"; if (d(e), !e || !s[e].get(t)) return o(t); s[e].get(t).staged = !0; const r = [...s[e]]; function o(t) { const r = e ? n.ee.get(e) : n.ee, o = a.X.handlers; if (r.backlog && o) { var s = r.backlog[t], c = o[t]; if (c) { for (var d = 0; s && d < s.length; ++d)l(s[d], c); (0, i.D)(c, (function (e, t) { (0, i.D)(t, (function (t, r) { r[0].on(e, r[1]) })) })) } delete o[t], r.backlog[t] = null, r.emit("drain-" + t, []) } } r.every((e => { let [t, r] = e; return r.staged })) && (r.sort(((e, t) => e[1].priority - t[1].priority)), r.forEach((t => { let [r] = t; s[e].delete(r), o(r) }))) } function l(e, t) { var r = e[1]; (0, i.D)(t[r], (function (t, r) { var n = e[0]; if (r[0] === n) { var i = r[1], a = e[3], o = e[2]; i.apply(a, o) } })) } }, 8325: (e, t, r) => { r.d(t, { A: () => c, ee: () => d }); var n = r(8632), i = r(2210), a = r(234); class o { constructor(e) { this.contextId = e } } var s = r(3117); const c = "nr@context:".concat(s.a), d = function e(t, r) { var n = {}, s = {}, u = {}, f = !1; try { f = 16 === r.length && (0, a.OP)(r).isolatedBacklog } catch (e) { } var h = { on: g, addEventListener: g, removeEventListener: function (e, t) { var r = n[e]; if (!r) return; for (var i = 0; i < r.length; i++)r[i] === t && r.splice(i, 1) }, emit: function (e, r, n, i, a) { !1 !== a && (a = !0); if (d.aborted && !i) return; t && a && t.emit(e, r, n); for (var o = p(n), c = m(e), u = c.length, l = 0; l < u; l++)c[l].apply(o, r); var f = b()[s[e]]; f && f.push([h, e, r, o]); return o }, get: v, listeners: m, context: p, buffer: function (e, t) { const r = b(); if (t = t || "feature", h.aborted) return; Object.entries(e || {}).forEach((e => { let [n, i] = e; s[i] = t, t in r || (r[t] = []) })) }, abort: l, aborted: !1, isBuffering: function (e) { return !!b()[s[e]] }, debugId: r, backlog: f ? {} : t && "object" == typeof t.backlog ? t.backlog : {} }; return h; function p(e) { return e && e instanceof o ? e : e ? (0, i.X)(e, c, (() => new o(c))) : new o(c) } function g(e, t) { n[e] = m(e).concat(t) } function m(e) { return n[e] || [] } function v(t) { return u[t] = u[t] || e(h, t) } function b() { return h.backlog } }(void 0, "globalEE"), u = (0, n.fP)(); function l() { d.aborted = !0, d.backlog = {} } u.ee || (u.ee = d) }, 5546: (e, t, r) => { r.d(t, { E: () => n, p: () => i }); var n = r(8325).ee.get("handle"); function i(e, t, r, i, a) { a ? (a.buffer([e], i), a.emit(e, t, r)) : (n.buffer([e], i), n.emit(e, t, r)) } }, 4322: (e, t, r) => { r.d(t, { X: () => a }); var n = r(5546); a.on = o; var i = a.handlers = {}; function a(e, t, r, a) { o(a || n.E, i, e, t, r) } function o(e, t, r, i, a) { a || (a = "feature"), e || (e = n.E); var o = t[a] = t[a] || {}; (o[r] = o[r] || []).push([e, i]) } }, 3239: (e, t, r) => { r.d(t, { bP: () => s, iz: () => c, m$: () => o }); var n = r(385); let i = !1, a = !1; try { const e = { get passive() { return i = !0, !1 }, get signal() { return a = !0, !1 } }; n._A.addEventListener("test", null, e), n._A.removeEventListener("test", null, e) } catch (e) { } function o(e, t) { return i || a ? { capture: !!e, passive: i, signal: t } : !!e } function s(e, t) { let r = arguments.length > 2 && void 0 !== arguments[2] && arguments[2], n = arguments.length > 3 ? arguments[3] : void 0; window.addEventListener(e, t, o(r, n)) } function c(e, t) { let r = arguments.length > 2 && void 0 !== arguments[2] && arguments[2], n = arguments.length > 3 ? arguments[3] : void 0; document.addEventListener(e, t, o(r, n)) } }, 3117: (e, t, r) => { r.d(t, { a: () => n }); const n = (0, r(4402).Rl)() }, 4402: (e, t, r) => { r.d(t, { Ht: () => d, M: () => c, Rl: () => o, ky: () => s }); var n = r(385); const i = "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx"; function a(e, t) { return e ? 15 & e[t] : 16 * Math.random() | 0 } function o() { const e = n._A?.crypto || n._A?.msCrypto; let t, r = 0; return e && e.getRandomValues && (t = e.getRandomValues(new Uint8Array(31))), i.split("").map((e => "x" === e ? a(t, ++r).toString(16) : "y" === e ? (3 & a() | 8).toString(16) : e)).join("") } function s(e) { const t = n._A?.crypto || n._A?.msCrypto; let r, i = 0; t && t.getRandomValues && (r = t.getRandomValues(new Uint8Array(31))); const o = []; for (var s = 0; s < e; s++)o.push(a(r, ++i).toString(16)); return o.join("") } function c() { return s(16) } function d() { return s(32) } }, 7056: (e, t, r) => { r.d(t, { Bq: () => n, Hb: () => a, oD: () => i }); const n = "NRBA", i = 144e5, a = 18e5 }, 7894: (e, t, r) => { function n() { return Math.round(performance.now()) } r.d(t, { z: () => n }) }, 7243: (e, t, r) => { r.d(t, { e: () => a }); var n = r(385), i = {}; function a(e) { if (e in i) return i[e]; if (0 === (e || "").indexOf("data:")) return { protocol: "data" }; let t; var r = n._A?.location, a = {}; if (n.il) t = document.createElement("a"), t.href = e; else try { t = new URL(e, r.href) } catch (e) { return a } a.port = t.port; var o = t.href.split("://"); !a.port && o[1] && (a.port = o[1].split("/")[0].split("@").pop().split(":")[1]), a.port && "0" !== a.port || (a.port = "https" === o[0] ? "443" : "80"), a.hostname = t.hostname || r.hostname, a.pathname = t.pathname, a.protocol = o[0], "/" !== a.pathname.charAt(0) && (a.pathname = "/" + a.pathname); var s = !t.protocol || ":" === t.protocol || t.protocol === r.protocol, c = t.hostname === r.hostname && t.port === r.port; return a.sameOrigin = s && (!t.hostname || c), "/" === a.pathname && (i[e] = a), a } }, 50: (e, t, r) => { function n(e, t) { "function" == typeof console.warn && (console.warn("New Relic: ".concat(e)), t && console.warn(t)) } r.d(t, { Z: () => n }) }, 2587: (e, t, r) => { r.d(t, { N: () => c, T: () => d }); var n = r(8325), i = r(5546), a = r(3325); const o = { stn: [a.D.sessionTrace], err: [a.D.jserrors, a.D.metrics], ins: [a.D.pageAction], spa: [a.D.spa], sr: [a.D.sessionReplay, a.D.sessionTrace] }, s = new Set; function c(e, t) { const r = n.ee.get(t); e && "object" == typeof e && (s.has(t) || Object.entries(e).forEach((e => { let [t, n] = e; o[t] ? o[t].forEach((e => { n ? (0, i.p)("feat-" + t, [], void 0, e, r) : (0, i.p)("block-" + t, [], void 0, e, r), (0, i.p)("rumresp-" + t, [Boolean(n)], void 0, e, r) })) : n && (0, i.p)("feat-" + t, [], void 0, void 0, r), d[t] = Boolean(n) })), Object.keys(o).forEach((e => { void 0 === d[e] && (o[e]?.forEach((t => (0, i.p)("rumresp-" + e, [!1], void 0, t, r))), d[e] = !1) })), s.add(t)) } const d = {} }, 2210: (e, t, r) => { r.d(t, { X: () => i }); var n = Object.prototype.hasOwnProperty; function i(e, t, r) { if (n.call(e, t)) return e[t]; var i = r(); if (Object.defineProperty && Object.keys) try { return Object.defineProperty(e, t, { value: i, writable: !0, enumerable: !1 }), i } catch (e) { } return e[t] = i, i } }, 1284: (e, t, r) => { r.d(t, { D: () => n }); const n = (e, t) => Object.entries(e || {}).map((e => { let [r, n] = e; return t(r, n) })) }, 4351: (e, t, r) => { r.d(t, { P: () => a }); var n = r(8325); const i = () => { const e = new WeakSet; return (t, r) => { if ("object" == typeof r && null !== r) { if (e.has(r)) return; e.add(r) } return r } }; function a(e) { try { return JSON.stringify(e, i()) } catch (e) { try { n.ee.emit("internal-error", [e]) } catch (e) { } } } }, 3960: (e, t, r) => { r.d(t, { K: () => o, b: () => a }); var n = r(3239); function i() { return "undefined" == typeof document || "complete" === document.readyState } function a(e, t) { if (i()) return e(); (0, n.bP)("load", e, t) } function o(e) { if (i()) return e(); (0, n.iz)("DOMContentLoaded", e) } }, 8632: (e, t, r) => { r.d(t, { EZ: () => d, Qy: () => c, ce: () => a, fP: () => o, gG: () => u, mF: () => s }); var n = r(7894), i = r(385); const a = { beacon: "bam.nr-data.net", errorBeacon: "bam.nr-data.net" }; function o() { return i._A.NREUM || (i._A.NREUM = {}), void 0 === i._A.newrelic && (i._A.newrelic = i._A.NREUM), i._A.NREUM } function s() { let e = o(); return e.o || (e.o = { ST: i._A.setTimeout, SI: i._A.setImmediate, CT: i._A.clearTimeout, XHR: i._A.XMLHttpRequest, REQ: i._A.Request, EV: i._A.Event, PR: i._A.Promise, MO: i._A.MutationObserver, FETCH: i._A.fetch }), e } function c(e, t, r) { let i = o(); const a = i.initializedAgents || {}, s = a[e] || {}; return Object.keys(s).length || (s.initializedAt = { ms: (0, n.z)(), date: new Date }), i.initializedAgents = { ...a, [e]: { ...s, [r]: t } }, i } function d(e, t) { o()[e] = t } function u() { return function () { let e = o(); const t = e.info || {}; e.info = { beacon: a.beacon, errorBeacon: a.errorBeacon, ...t } }(), function () { let e = o(); const t = e.init || {}; e.init = { ...t } }(), s(), function () { let e = o(); const t = e.loader_config || {}; e.loader_config = { ...t } }(), o() } }, 7956: (e, t, r) => { r.d(t, { N: () => i }); var n = r(3239); function i(e) { let t = arguments.length > 1 && void 0 !== arguments[1] && arguments[1], r = arguments.length > 2 ? arguments[2] : void 0, i = arguments.length > 3 ? arguments[3] : void 0; (0, n.iz)("visibilitychange", (function () { if (t) return void ("hidden" === document.visibilityState && e()); e(document.visibilityState) }), r, i) } }, 1214: (e, t, r) => { r.d(t, { em: () => b, u5: () => j, QU: () => P, Kf: () => I }); var n = r(8325), i = r(3117); const a = "nr@original:".concat(i.a); var o = Object.prototype.hasOwnProperty, s = !1; function c(e, t) { return e || (e = n.ee), r.inPlace = function (e, t, n, i, a) { n || (n = ""); const o = "-" === n.charAt(0); for (let s = 0; s < t.length; s++) { const c = t[s], d = e[c]; u(d) || (e[c] = r(d, o ? c + n : n, i, c, a)) } }, r.flag = a, r; function r(t, r, n, s, c) { return u(t) ? t : (r || (r = ""), nrWrapper[a] = t, function (e, t, r) { if (Object.defineProperty && Object.keys) try { return Object.keys(e).forEach((function (r) { Object.defineProperty(t, r, { get: function () { return e[r] }, set: function (t) { return e[r] = t, t } }) })), t } catch (e) { d([e], r) } for (var n in e) o.call(e, n) && (t[n] = e[n]) }(t, nrWrapper, e), nrWrapper); function nrWrapper() { var a, o, u, l; try { o = this, a = [...arguments], u = "function" == typeof n ? n(a, o) : n || {} } catch (t) { d([t, "", [a, o, s], u], e) } i(r + "start", [a, o, s], u, c); try { return l = t.apply(o, a) } catch (e) { throw i(r + "err", [a, o, e], u, c), e } finally { i(r + "end", [a, o, l], u, c) } } } function i(r, n, i, a) { if (!s || t) { var o = s; s = !0; try { e.emit(r, n, i, t, a) } catch (t) { d([t, r, n, i], e) } s = o } } } function d(e, t) { t || (t = n.ee); try { t.emit("internal-error", e) } catch (e) { } } function u(e) { return !(e && "function" == typeof e && e.apply && !e[a]) } var l = r(2210), f = r(385); const h = {}, p = f._A.XMLHttpRequest, g = "addEventListener", m = "removeEventListener", v = "nr@wrapped:".concat(n.A); function b(e) { var t = function (e) { return (e || n.ee).get("events") }(e); if (h[t.debugId]++) return t; h[t.debugId] = 1; var r = c(t, !0); function i(e) { r.inPlace(e, [g, m], "-", a) } function a(e, t) { return e[1] } return "getPrototypeOf" in Object && (f.il && y(document, i), y(f._A, i), y(p.prototype, i)), t.on(g + "-start", (function (e, t) { var n = e[1]; if (null !== n && ("function" == typeof n || "object" == typeof n)) { var i = (0, l.X)(n, v, (function () { var e = { object: function () { if ("function" != typeof n.handleEvent) return; return n.handleEvent.apply(n, arguments) }, function: n }[typeof n]; return e ? r(e, "fn-", null, e.name || "anonymous") : n })); this.wrapped = e[1] = i } })), t.on(m + "-start", (function (e) { e[1] = this.wrapped || e[1] })), t } function y(e, t) { let r = e; for (; "object" == typeof r && !Object.prototype.hasOwnProperty.call(r, g);)r = Object.getPrototypeOf(r); for (var n = arguments.length, i = new Array(n > 2 ? n - 2 : 0), a = 2; a < n; a++)i[a - 2] = arguments[a]; r && t(r, ...i) } var x = "fetch-", w = x + "body-", A = ["arrayBuffer", "blob", "json", "text", "formData"], _ = f._A.Request, E = f._A.Response, T = "prototype"; const D = {}; function j(e) { const t = function (e) { return (e || n.ee).get("fetch") }(e); if (!(_ && E && f._A.fetch)) return t; if (D[t.debugId]++) return t; function r(e, r, i) { var a = e[r]; "function" == typeof a && (e[r] = function () { var e, r = [...arguments], o = {}; t.emit(i + "before-start", [r], o), o[n.A] && o[n.A].dt && (e = o[n.A].dt); var s = a.apply(this, r); return t.emit(i + "start", [r, e], s), s.then((function (e) { return t.emit(i + "end", [null, e], s), e }), (function (e) { throw t.emit(i + "end", [e], s), e })) }) } return D[t.debugId] = 1, A.forEach((e => { r(_[T], e, w), r(E[T], e, w) })), r(f._A, "fetch", x), t.on(x + "end", (function (e, r) { var n = this; if (r) { var i = r.headers.get("content-length"); null !== i && (n.rxSize = i), t.emit(x + "done", [null, r], n) } else t.emit(x + "done", [e], n) })), t } const S = {}, C = ["pushState", "replaceState"]; function P(e) { const t = function (e) { return (e || n.ee).get("history") }(e); return !f.il || S[t.debugId]++ || (S[t.debugId] = 1, c(t).inPlace(window.history, C, "-")), t } var R = r(3239); var O = r(50); const k = {}, N = ["open", "send"]; function I(e) { var t = e || n.ee; const r = function (e) { return (e || n.ee).get("xhr") }(t); if (k[r.debugId]++) return r; k[r.debugId] = 1, b(t); var i = c(r), a = f._A.XMLHttpRequest, o = f._A.MutationObserver, s = f._A.Promise, d = f._A.setInterval, u = "readystatechange", l = ["onload", "onerror", "onabort", "onloadstart", "onloadend", "onprogress", "ontimeout"], h = [], p = f._A.XMLHttpRequest = function (e) { const t = new a(e), n = r.context(t); try { r.emit("new-xhr", [t], n), t.addEventListener(u, (o = n, function () { var e = this; e.readyState > 3 && !o.resolved && (o.resolved = !0, r.emit("xhr-resolved", [], e)), i.inPlace(e, l, "fn-", w) }), (0, R.m$)(!1)) } catch (e) { (0, O.Z)("An error occurred while intercepting XHR", e); try { r.emit("internal-error", [e]) } catch (e) { } } var o; return t }; function g(e, t) { i.inPlace(t, ["onreadystatechange"], "fn-", w) } if (function (e, t) { for (var r in e) t[r] = e[r] }(a, p), p.prototype = a.prototype, i.inPlace(p.prototype, N, "-xhr-", w), r.on("send-xhr-start", (function (e, t) { g(e, t), function (e) { h.push(e), o && (m ? m.then(x) : d ? d(x) : (v = -v, y.data = v)) }(t) })), r.on("open-xhr-start", g), o) { var m = s && s.resolve(); if (!d && !s) { var v = 1, y = document.createTextNode(v); new o(x).observe(y, { characterData: !0 }) } } else t.on("fn-end", (function (e) { e[0] && e[0].type === u || x() })); function x() { for (var e = 0; e < h.length; e++)g(0, h[e]); h.length && (h = []) } function w(e, t) { return t } return r } }, 7825: (e, t, r) => { r.d(t, { t: () => n }); const n = r(3325).D.ajax }, 6660: (e, t, r) => { r.d(t, { t: () => n }); const n = r(3325).D.jserrors }, 3081: (e, t, r) => { r.d(t, { gF: () => a, mY: () => i, t9: () => n, vz: () => s, xS: () => o }); const n = r(3325).D.metrics, i = "sm", a = "cm", o = "storeSupportabilityMetrics", s = "storeEventMetrics" }, 4649: (e, t, r) => { r.d(t, { t: () => n }); const n = r(3325).D.pageAction }, 7633: (e, t, r) => { r.d(t, { t: () => n }); const n = r(3325).D.pageViewEvent }, 9251: (e, t, r) => { r.d(t, { t: () => n }); const n = r(3325).D.pageViewTiming }, 7144: (e, t, r) => { r.d(t, { t: () => n }); const n = r(3325).D.sessionReplay }, 3614: (e, t, r) => { r.d(t, { BST_RESOURCE: () => i, END: () => s, FEATURE_NAME: () => n, FN_END: () => d, FN_START: () => c, PUSH_STATE: () => u, RESOURCE: () => a, START: () => o }); const n = r(3325).D.sessionTrace, i = "bstResource", a = "resource", o = "-start", s = "-end", c = "fn" + o, d = "fn" + s, u = "pushState" }, 5938: (e, t, r) => { r.d(t, { W: () => i }); var n = r(8325); class i { constructor(e, t, r) { this.agentIdentifier = e, this.aggregator = t, this.ee = n.ee.get(e), this.featureName = r, this.blocked = !1 } } }, 7530: (e, t, r) => { r.d(t, { j: () => b }); var n = r(3325), i = r(234), a = r(5546), o = r(8325), s = r(7894), c = r(8e3), d = r(3960), u = r(385), l = r(50), f = r(3081), h = r(8632); function p() { const e = (0, h.gG)();["setErrorHandler", "finished", "addToTrace", "addRelease", "addPageAction", "setCurrentRouteName", "setPageViewName", "setCustomAttribute", "interaction", "noticeError", "setUserId", "setApplicationVersion", "start"].forEach((t => { e[t] = function () { for (var r = arguments.length, n = new Array(r), i = 0; i < r; i++)n[i] = arguments[i]; return function (t) { for (var r = arguments.length, n = new Array(r > 1 ? r - 1 : 0), i = 1; i < r; i++)n[i - 1] = arguments[i]; let a = []; return Object.values(e.initializedAgents).forEach((e => { e.exposed && e.api[t] && a.push(e.api[t](...n)) })), a.length > 1 ? a : a[0] }(t, ...n) } })) } var g = r(2587); const m = e => { const t = e.startsWith("http"); e += "/", r.p = t ? e : "https://" + e }; let v = !1; function b(e) { let t = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : {}, b = arguments.length > 2 ? arguments[2] : void 0, y = arguments.length > 3 ? arguments[3] : void 0, { init: x, info: w, loader_config: A, runtime: _ = { loaderType: b }, exposed: E = !0 } = t; const T = (0, h.gG)(); w || (x = T.init, w = T.info, A = T.loader_config), (0, i.Dg)(e, x || {}), (0, i.GE)(e, A || {}), w.jsAttributes ??= {}, u.v6 && (w.jsAttributes.isWorker = !0), (0, i.CX)(e, w); const D = (0, i.P_)(e), j = [w.beacon, w.errorBeacon]; v || (v = !0, D.proxy.assets && (m(D.proxy.assets), j.push(D.proxy.assets)), D.proxy.beacon && j.push(D.proxy.beacon)), _.denyList = [...D.ajax.deny_list || [], ...D.ajax.block_internal ? j : []], (0, i.sU)(e, _), p(); const S = function (e, t) { t || (0, c.R)(e, "api"); const h = {}; var p = o.ee.get(e), g = p.get("tracer"), m = "api-", v = m + "ixn-"; function b(t, r, n, a) { const o = (0, i.C5)(e); return null === r ? delete o.jsAttributes[t] : (0, i.CX)(e, { ...o, jsAttributes: { ...o.jsAttributes, [t]: r } }), w(m, n, !0, a || null === r ? "session" : void 0)(t, r) } function y() { } ["setErrorHandler", "finished", "addToTrace", "addRelease"].forEach((e => { h[e] = w(m, e, !0, "api") })), h.addPageAction = w(m, "addPageAction", !0, n.D.pageAction), h.setCurrentRouteName = w(m, "routeName", !0, n.D.spa), h.setPageViewName = function (t, r) { if ("string" == typeof t) return "/" !== t.charAt(0) && (t = "/" + t), (0, i.OP)(e).customTransaction = (r || "http://custom.transaction") + t, w(m, "setPageViewName", !0)() }, h.setCustomAttribute = function (e, t) { let r = arguments.length > 2 && void 0 !== arguments[2] && arguments[2]; if ("string" == typeof e) { if (["string", "number"].includes(typeof t) || null === t) return b(e, t, "setCustomAttribute", r); (0, l.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string or number type, but a type of <".concat(typeof t, "> was provided.")) } else (0, l.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e, "> was provided.")) }, h.setUserId = function (e) { if ("string" == typeof e || null === e) return b("enduser.id", e, "setUserId", !0); (0, l.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e, "> was provided.")) }, h.setApplicationVersion = function (e) { if ("string" == typeof e || null === e) return b("application.version", e, "setApplicationVersion", !1); (0, l.Z)("Failed to execute setApplicationVersion. Expected <String | null>, but got <".concat(typeof e, ">.")) }, h.start = e => { try { const t = e ? "defined" : "undefined"; (0, a.p)(f.xS, ["API/start/".concat(t, "/called")], void 0, n.D.metrics, p); const r = Object.values(n.D); if (void 0 === e) e = r; else { if ((e = Array.isArray(e) && e.length ? e : [e]).some((e => !r.includes(e)))) return (0, l.Z)("Invalid feature name supplied. Acceptable feature names are: ".concat(r)); e.includes(n.D.pageViewEvent) || e.push(n.D.pageViewEvent) } e.forEach((e => { p.emit("".concat(e, "-opt-in")) })) } catch (e) { (0, l.Z)("An unexpected issue occurred", e) } }, h.interaction = function () { return (new y).get() }; var x = y.prototype = { createTracer: function (e, t) { var r = {}, i = this, o = "function" == typeof t; return (0, a.p)(v + "tracer", [(0, s.z)(), e, r], i, n.D.spa, p), function () { if (g.emit((o ? "" : "no-") + "fn-start", [(0, s.z)(), i, o], r), o) try { return t.apply(this, arguments) } catch (e) { throw g.emit("fn-err", [arguments, this, e], r), e } finally { g.emit("fn-end", [(0, s.z)()], r) } } } }; function w(e, t, r, i) { return function () { return (0, a.p)(f.xS, ["API/" + t + "/called"], void 0, n.D.metrics, p), i && (0, a.p)(e + t, [(0, s.z)(), ...arguments], r ? null : this, i, p), r ? void 0 : this } } function A() { r.e(63).then(r.bind(r, 7438)).then((t => { let { setAPI: r } = t; r(e), (0, c.L)(e, "api") })).catch((() => (0, l.Z)("Downloading runtime APIs failed..."))) } return ["actionText", "setName", "setAttribute", "save", "ignore", "onEnd", "getContext", "end", "get"].forEach((e => { x[e] = w(v, e, void 0, n.D.spa) })), h.noticeError = function (e, t) { "string" == typeof e && (e = new Error(e)), (0, a.p)(f.xS, ["API/noticeError/called"], void 0, n.D.metrics, p), (0, a.p)("err", [e, (0, s.z)(), !1, t], void 0, n.D.jserrors, p) }, u.il ? (0, d.b)((() => A()), !0) : A(), h }(e, y); return (0, h.Qy)(e, S, "api"), (0, h.Qy)(e, E, "exposed"), (0, h.EZ)("activatedFeatures", g.T), S } }, 3325: (e, t, r) => { r.d(t, { D: () => n, p: () => i }); const n = { ajax: "ajax", jserrors: "jserrors", metrics: "metrics", pageAction: "page_action", pageViewEvent: "page_view_event", pageViewTiming: "page_view_timing", sessionReplay: "session_replay", sessionTrace: "session_trace", spa: "spa" }, i = { [n.pageViewEvent]: 1, [n.pageViewTiming]: 2, [n.metrics]: 3, [n.jserrors]: 4, [n.ajax]: 5, [n.sessionTrace]: 6, [n.pageAction]: 7, [n.spa]: 8, [n.sessionReplay]: 9 } } }, n = {}; function i(e) { var t = n[e]; if (void 0 !== t) return t.exports; var a = n[e] = { exports: {} }; return r[e](a, a.exports, i), a.exports } i.m = r, i.d = (e, t) => { for (var r in t) i.o(t, r) && !i.o(e, r) && Object.defineProperty(e, r, { enumerable: !0, get: t[r] }) }, i.f = {}, i.e = e => Promise.all(Object.keys(i.f).reduce(((t, r) => (i.f[r](e, t), t)), [])), i.u = e => ({ 63: "nr-full", 110: "nr-full-compressor", 379: "nr-full-recorder" }[e] + "-1.244.0.min.js"), i.o = (e, t) => Object.prototype.hasOwnProperty.call(e, t), e = {}, t = "NRBA-1.244.0.PROD:", i.l = (r, n, a, o) => { if (e[r]) e[r].push(n); else { var s, c; if (void 0 !== a) for (var d = document.getElementsByTagName("script"), u = 0; u < d.length; u++) { var l = d[u]; if (l.getAttribute("src") == r || l.getAttribute("data-webpack") == t + a) { s = l; break } } s || (c = !0, (s = document.createElement("script")).charset = "utf-8", s.timeout = 120, i.nc && s.setAttribute("nonce", i.nc), s.setAttribute("data-webpack", t + a), s.src = r), e[r] = [n]; var f = (t, n) => { s.onerror = s.onload = null, clearTimeout(h); var i = e[r]; if (delete e[r], s.parentNode && s.parentNode.removeChild(s), i && i.forEach((e => e(n))), t) return t(n) }, h = setTimeout(f.bind(null, void 0, { type: "timeout", target: s }), 12e4); s.onerror = f.bind(null, s.onerror), s.onload = f.bind(null, s.onload), c && document.head.appendChild(s) } }, i.r = e => { "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }), Object.defineProperty(e, "__esModule", { value: !0 }) }, i.p = "https://js-agent.newrelic.com/", (() => { var e = { 29: 0, 789: 0 }; i.f.j = (t, r) => { var n = i.o(e, t) ? e[t] : void 0; if (0 !== n) if (n) r.push(n[2]); else { var a = new Promise(((r, i) => n = e[t] = [r, i])); r.push(n[2] = a); var o = i.p + i.u(t), s = new Error; i.l(o, (r => { if (i.o(e, t) && (0 !== (n = e[t]) && (e[t] = void 0), n)) { var a = r && ("load" === r.type ? "missing" : r.type), o = r && r.target && r.target.src; s.message = "Loading chunk " + t + " failed.\n(" + a + ": " + o + ")", s.name = "ChunkLoadError", s.type = a, s.request = o, n[1](s) } }), "chunk-" + t, t) } }; var t = (t, r) => { var n, a, [o, s, c] = r, d = 0; if (o.some((t => 0 !== e[t]))) { for (n in s) i.o(s, n) && (i.m[n] = s[n]); if (c) c(i) } for (t && t(r); d < o.length; d++)a = o[d], i.o(e, a) && e[a] && e[a][0](), e[a] = 0 }, r = self["webpackChunk:NRBA-1.244.0.PROD"] = self["webpackChunk:NRBA-1.244.0.PROD"] || []; r.forEach(t.bind(null, 0)), r.push = t.bind(null, r.push.bind(r)) })(), (() => { var e = i(50); class t { addPageAction(t, r) { (0, e.Z)("Call to agent api addPageAction failed. The page action feature is not currently initialized.") } setPageViewName(t, r) { (0, e.Z)("Call to agent api setPageViewName failed. The page view feature is not currently initialized.") } setCustomAttribute(t, r, n) { (0, e.Z)("Call to agent api setCustomAttribute failed. The js errors feature is not currently initialized.") } noticeError(t, r) { (0, e.Z)("Call to agent api noticeError failed. The js errors feature is not currently initialized.") } setUserId(t) { (0, e.Z)("Call to agent api setUserId failed. The js errors feature is not currently initialized.") } setApplicationVersion(t) { (0, e.Z)("Call to agent api setApplicationVersion failed. The agent is not currently initialized.") } setErrorHandler(t) { (0, e.Z)("Call to agent api setErrorHandler failed. The js errors feature is not currently initialized.") } finished(t) { (0, e.Z)("Call to agent api finished failed. The page action feature is not currently initialized.") } addRelease(t, r) { (0, e.Z)("Call to agent api addRelease failed. The js errors feature is not currently initialized.") } start(t) { (0, e.Z)("Call to agent api addRelease failed. The agent is not currently initialized.") } } var r = i(3325), n = i(234); const a = Object.values(r.D); function o(e) { const t = {}; return a.forEach((r => { t[r] = function (e, t) { return !1 !== (0, n.Mt)(t, "".concat(e, ".enabled")) }(r, e) })), t } var s = i(7530); var c = i(8e3), d = i(5938), u = i(3960), l = i(385); class f extends d.W { constructor(e, t, r) { let i = !(arguments.length > 3 && void 0 !== arguments[3]) || arguments[3]; super(e, t, r), this.auto = i, this.abortHandler = void 0, this.featAggregate = void 0, this.onAggregateImported = void 0, !1 === (0, n.Mt)(this.agentIdentifier, "".concat(this.featureName, ".autoStart")) && (this.auto = !1), this.auto && (0, c.R)(e, r) } importAggregator() { let t = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {}; if (this.featAggregate) return; if (!this.auto) return void this.ee.on("".concat(this.featureName, "-opt-in"), (() => { (0, c.R)(this.agentIdentifier, this.featureName), this.auto = !0, this.importAggregator() })); const r = l.il && !0 === (0, n.Mt)(this.agentIdentifier, "privacy.cookies_enabled"); let a; this.onAggregateImported = new Promise((e => { a = e })); const o = async () => { let n; try { if (r) { const { setupAgentSession: e } = await i.e(63).then(i.bind(i, 3228)); n = e(this.agentIdentifier) } } catch (t) { (0, e.Z)("A problem occurred when starting up session manager. This page will not start or extend any session.", t) } try { if (!this.shouldImportAgg(this.featureName, n)) return (0, c.L)(this.agentIdentifier, this.featureName), void a(!1); const { lazyFeatureLoader: e } = await i.e(63).then(i.bind(i, 8582)), { Aggregate: r } = await e(this.featureName, "aggregate"); this.featAggregate = new r(this.agentIdentifier, this.aggregator, t), a(!0) } catch (t) { (0, e.Z)("Downloading and initializing ".concat(this.featureName, " failed..."), t), this.abortHandler?.(), (0, c.L)(this.agentIdentifier, this.featureName), a(!1) } }; l.il ? (0, u.b)((() => o()), !0) : o() } shouldImportAgg(e, t) { return e !== r.D.sessionReplay || !!n.Yu.MO && (!1 !== (0, n.Mt)(this.agentIdentifier, "session_trace.enabled") && (!!t?.isNew || !!t?.state.sessionReplay)) } } var h = i(7633); class p extends f { static featureName = h.t; constructor(e, t) { let r = !(arguments.length > 2 && void 0 !== arguments[2]) || arguments[2]; super(e, t, h.t, r), this.importAggregator() } } var g = i(1117), m = i(1284); class v extends g.w { constructor(e) { super(e), this.aggregatedData = {} } store(e, t, r, n, i) { var a = this.getBucket(e, t, r, i); return a.metrics = function (e, t) { t || (t = { count: 0 }); return t.count += 1, (0, m.D)(e, (function (e, r) { t[e] = b(r, t[e]) })), t }(n, a.metrics), a } merge(e, t, r, n, i) { var a = this.getBucket(e, t, n, i); if (a.metrics) { var o = a.metrics; o.count += r.count, (0, m.D)(r, (function (e, t) { if ("count" !== e) { var n = o[e], i = r[e]; i && !i.c ? o[e] = b(i.t, n) : o[e] = function (e, t) { if (!t) return e; t.c || (t = y(t.t)); return t.min = Math.min(e.min, t.min), t.max = Math.max(e.max, t.max), t.t += e.t, t.sos += e.sos, t.c += e.c, t }(i, o[e]) } })) } else a.metrics = r } storeMetric(e, t, r, n) { var i = this.getBucket(e, t, r); return i.stats = b(n, i.stats), i } getBucket(e, t, r, n) { this.aggregatedData[e] || (this.aggregatedData[e] = {}); var i = this.aggregatedData[e][t]; return i || (i = this.aggregatedData[e][t] = { params: r || {} }, n && (i.custom = n)), i } get(e, t) { return t ? this.aggregatedData[e] && this.aggregatedData[e][t] : this.aggregatedData[e] } take(e) { for (var t = {}, r = "", n = !1, i = 0; i < e.length; i++)t[r = e[i]] = x(this.aggregatedData[r]), t[r].length && (n = !0), delete this.aggregatedData[r]; return n ? t : null } } function b(e, t) { return null == e ? function (e) { e ? e.c++ : e = { c: 1 }; return e }(t) : t ? (t.c || (t = y(t.t)), t.c += 1, t.t += e, t.sos += e * e, e > t.max && (t.max = e), e < t.min && (t.min = e), t) : { t: e } } function y(e) { return { t: e, min: e, max: e, sos: e * e, c: 1 } } function x(e) { return "object" != typeof e ? [] : (0, m.D)(e, w) } function w(e, t) { return t } var A = i(8632), _ = i(4402), E = i(4351); var T = i(5546), D = i(7956), j = i(3239), S = i(7894), C = i(9251); class P extends f { static featureName = C.t; constructor(e, t) { let r = !(arguments.length > 2 && void 0 !== arguments[2]) || arguments[2]; super(e, t, C.t, r), l.il && ((0, D.N)((() => (0, T.p)("docHidden", [(0, S.z)()], void 0, C.t, this.ee)), !0), (0, j.bP)("pagehide", (() => (0, T.p)("winPagehide", [(0, S.z)()], void 0, C.t, this.ee))), this.importAggregator()) } } var R = i(3081); class O extends f { static featureName = R.t9; constructor(e, t) { let r = !(arguments.length > 2 && void 0 !== arguments[2]) || arguments[2]; super(e, t, R.t9, r), this.importAggregator() } } var k = i(6660); class N { constructor(e, t, r, n) { this.name = "UncaughtError", this.message = e, this.sourceURL = t, this.line = r, this.column = n } } class I extends f { static featureName = k.t; #e = new Set; constructor(e, t) { let n = !(arguments.length > 2 && void 0 !== arguments[2]) || arguments[2]; super(e, t, k.t, n); try { this.removeOnAbort = new AbortController } catch (e) { } this.ee.on("fn-err", ((e, t, n) => { this.abortHandler && !this.#e.has(n) && (this.#e.add(n), (0, T.p)("err", [this.#t(n), (0, S.z)()], void 0, r.D.jserrors, this.ee)) })), this.ee.on("internal-error", (e => { this.abortHandler && (0, T.p)("ierr", [this.#t(e), (0, S.z)(), !0], void 0, r.D.jserrors, this.ee) })), l._A.addEventListener("unhandledrejection", (e => { this.abortHandler && (0, T.p)("err", [this.#r(e), (0, S.z)(), !1, { unhandledPromiseRejection: 1 }], void 0, r.D.jserrors, this.ee) }), (0, j.m$)(!1, this.removeOnAbort?.signal)), l._A.addEventListener("error", (e => { this.abortHandler && (this.#e.has(e.error) ? this.#e.delete(e.error) : (0, T.p)("err", [this.#n(e), (0, S.z)()], void 0, r.D.jserrors, this.ee)) }), (0, j.m$)(!1, this.removeOnAbort?.signal)), this.abortHandler = this.#i, this.importAggregator() } #i() { this.removeOnAbort?.abort(), this.#e.clear(), this.abortHandler = void 0 } #t(e) { return e instanceof Error ? e : void 0 !== e?.message ? new N(e.message, e.filename || e.sourceURL, e.lineno || e.line, e.colno || e.col) : new N("string" == typeof e ? e : (0, E.P)(e)) } #r(e) { let t = "Unhandled Promise Rejection: "; if (e?.reason instanceof Error) try { return e.reason.message = t + e.reason.message, e.reason } catch (t) { return e.reason } if (void 0 === e.reason) return new N(t); const r = this.#t(e.reason); return r.message = t + r.message, r } #n(e) { return e.error instanceof Error ? e.error : new N(e.message, e.filename, e.lineno, e.colno) } } var z = i(2210); let H = 1; const L = "nr@id"; function M(e) { const t = typeof e; return !e || "object" !== t && "function" !== t ? -1 : e === l._A ? 0 : (0, z.X)(e, L, (function () { return H++ })) } function Z(e) { if ("string" == typeof e && e.length) return e.length; if ("object" == typeof e) { if ("undefined" != typeof ArrayBuffer && e instanceof ArrayBuffer && e.byteLength) return e.byteLength; if ("undefined" != typeof Blob && e instanceof Blob && e.size) return e.size; if (!("undefined" != typeof FormData && e instanceof FormData)) try { return (0, E.P)(e).length } catch (e) { return } } } var F = i(1214), B = i(7243); class U { constructor(e) { this.agentIdentifier = e } generateTracePayload(e) { if (!this.shouldGenerateTrace(e)) return null; var t = (0, n.DL)(this.agentIdentifier); if (!t) return null; var r = (t.accountID || "").toString() || null, i = (t.agentID || "").toString() || null, a = (t.trustKey || "").toString() || null; if (!r || !i) return null; var o = (0, _.M)(), s = (0, _.Ht)(), c = Date.now(), d = { spanId: o, traceId: s, timestamp: c }; return (e.sameOrigin || this.isAllowedOrigin(e) && this.useTraceContextHeadersForCors()) && (d.traceContextParentHeader = this.generateTraceContextParentHeader(o, s), d.traceContextStateHeader = this.generateTraceContextStateHeader(o, c, r, i, a)), (e.sameOrigin && !this.excludeNewrelicHeader() || !e.sameOrigin && this.isAllowedOrigin(e) && this.useNewrelicHeaderForCors()) && (d.newrelicHeader = this.generateTraceHeader(o, s, c, r, i, a)), d } generateTraceContextParentHeader(e, t) { return "00-" + t + "-" + e + "-01" } generateTraceContextStateHeader(e, t, r, n, i) { return i + "@nr=0-1-" + r + "-" + n + "-" + e + "----" + t } generateTraceHeader(e, t, r, n, i, a) { if (!("function" == typeof l._A?.btoa)) return null; var o = { v: [0, 1], d: { ty: "Browser", ac: n, ap: i, id: e, tr: t, ti: r } }; return a && n !== a && (o.d.tk = a), btoa((0, E.P)(o)) } shouldGenerateTrace(e) { return this.isDtEnabled() && this.isAllowedOrigin(e) } isAllowedOrigin(e) { var t = !1, r = {}; if ((0, n.Mt)(this.agentIdentifier, "distributed_tracing") && (r = (0, n.P_)(this.agentIdentifier).distributed_tracing), e.sameOrigin) t = !0; else if (r.allowed_origins instanceof Array) for (var i = 0; i < r.allowed_origins.length; i++) { var a = (0, B.e)(r.allowed_origins[i]); if (e.hostname === a.hostname && e.protocol === a.protocol && e.port === a.port) { t = !0; break } } return t } isDtEnabled() { var e = (0, n.Mt)(this.agentIdentifier, "distributed_tracing"); return !!e && !!e.enabled } excludeNewrelicHeader() { var e = (0, n.Mt)(this.agentIdentifier, "distributed_tracing"); return !!e && !!e.exclude_newrelic_header } useNewrelicHeaderForCors() { var e = (0, n.Mt)(this.agentIdentifier, "distributed_tracing"); return !!e && !1 !== e.cors_use_newrelic_header } useTraceContextHeadersForCors() { var e = (0, n.Mt)(this.agentIdentifier, "distributed_tracing"); return !!e && !!e.cors_use_tracecontext_headers } } var q = i(7825), V = ["load", "error", "abort", "timeout"], G = V.length, W = n.Yu.REQ, X = n.Yu.XHR; class Q extends f { static featureName = q.t; constructor(e, t) { let i = !(arguments.length > 2 && void 0 !== arguments[2]) || arguments[2]; if (super(e, t, q.t, i), (0, n.OP)(e).xhrWrappable) { this.dt = new U(e), this.handler = (e, t, r, n) => (0, T.p)(e, t, r, n, this.ee); try { const e = { xmlhttprequest: "xhr", fetch: "fetch", beacon: "beacon" }; l._A?.performance?.getEntriesByType("resource").forEach((t => { if (t.initiatorType in e && 0 !== t.responseStatus) { const n = { status: t.responseStatus }, i = { rxSize: t.transferSize, duration: Math.floor(t.duration), cbTime: 0 }; K(n, t.name), this.handler("xhr", [n, i, t.startTime, t.responseEnd, e[t.initiatorType]], void 0, r.D.ajax) } })) } catch (e) { } (0, F.u5)(this.ee), (0, F.Kf)(this.ee), function (e, t, i, a) { function o(e) { var t = this; t.totalCbs = 0, t.called = 0, t.cbTime = 0, t.end = A, t.ended = !1, t.xhrGuids = {}, t.lastSize = null, t.loadCaptureCalled = !1, t.params = this.params || {}, t.metrics = this.metrics || {}, e.addEventListener("load", (function (r) { _(t, e) }), (0, j.m$)(!1)), l.IF || e.addEventListener("progress", (function (e) { t.lastSize = e.loaded }), (0, j.m$)(!1)) } function s(e) { this.params = { method: e[0] }, K(this, e[1]), this.metrics = {} } function c(t, r) { var i = (0, n.DL)(e); i.xpid && this.sameOrigin && r.setRequestHeader("X-NewRelic-ID", i.xpid); var o = a.generateTracePayload(this.parsedOrigin); if (o) { var s = !1; o.newrelicHeader && (r.setRequestHeader("newrelic", o.newrelicHeader), s = !0), o.traceContextParentHeader && (r.setRequestHeader("traceparent", o.traceContextParentHeader), o.traceContextStateHeader && r.setRequestHeader("tracestate", o.traceContextStateHeader), s = !0), s && (this.dt = o) } } function d(e, r) { var n = this.metrics, i = e[0], a = this; if (n && i) { var o = Z(i); o && (n.txSize = o) } this.startTime = (0, S.z)(), this.listener = function (e) { try { "abort" !== e.type || a.loadCaptureCalled || (a.params.aborted = !0), ("load" !== e.type || a.called === a.totalCbs && (a.onloadCalled || "function" != typeof r.onload) && "function" == typeof a.end) && a.end(r) } catch (e) { try { t.emit("internal-error", [e]) } catch (e) { } } }; for (var s = 0; s < G; s++)r.addEventListener(V[s], this.listener, (0, j.m$)(!1)) } function u(e, t, r) { this.cbTime += e, t ? this.onloadCalled = !0 : this.called += 1, this.called !== this.totalCbs || !this.onloadCalled && "function" == typeof r.onload || "function" != typeof this.end || this.end(r) } function f(e, t) { var r = "" + M(e) + !!t; this.xhrGuids && !this.xhrGuids[r] && (this.xhrGuids[r] = !0, this.totalCbs += 1) } function h(e, t) { var r = "" + M(e) + !!t; this.xhrGuids && this.xhrGuids[r] && (delete this.xhrGuids[r], this.totalCbs -= 1) } function p() { this.endTime = (0, S.z)() } function g(e, r) { r instanceof X && "load" === e[0] && t.emit("xhr-load-added", [e[1], e[2]], r) } function m(e, r) { r instanceof X && "load" === e[0] && t.emit("xhr-load-removed", [e[1], e[2]], r) } function v(e, t, r) { t instanceof X && ("onload" === r && (this.onload = !0), ("load" === (e[0] && e[0].type) || this.onload) && (this.xhrCbStart = (0, S.z)())) } function b(e, r) { this.xhrCbStart && t.emit("xhr-cb-time", [(0, S.z)() - this.xhrCbStart, this.onload, r], r) } function y(e) { var t, r = e[1] || {}; if ("string" == typeof e[0] ? 0 === (t = e[0]).length && l.il && (t = "" + l._A.location.href) : e[0] && e[0].url ? t = e[0].url : l._A?.URL && e[0] && e[0] instanceof URL ? t = e[0].href : "function" == typeof e[0].toString && (t = e[0].toString()), "string" == typeof t && 0 !== t.length) { t && (this.parsedOrigin = (0, B.e)(t), this.sameOrigin = this.parsedOrigin.sameOrigin); var n = a.generateTracePayload(this.parsedOrigin); if (n && (n.newrelicHeader || n.traceContextParentHeader)) if (e[0] && e[0].headers) s(e[0].headers, n) && (this.dt = n); else { var i = {}; for (var o in r) i[o] = r[o]; i.headers = new Headers(r.headers || {}), s(i.headers, n) && (this.dt = n), e.length > 1 ? e[1] = i : e.push(i) } } function s(e, t) { var r = !1; return t.newrelicHeader && (e.set("newrelic", t.newrelicHeader), r = !0), t.traceContextParentHeader && (e.set("traceparent", t.traceContextParentHeader), t.traceContextStateHeader && e.set("tracestate", t.traceContextStateHeader), r = !0), r } } function x(e, t) { this.params = {}, this.metrics = {}, this.startTime = (0, S.z)(), this.dt = t, e.length >= 1 && (this.target = e[0]), e.length >= 2 && (this.opts = e[1]); var r, n = this.opts || {}, i = this.target; "string" == typeof i ? r = i : "object" == typeof i && i instanceof W ? r = i.url : l._A?.URL && "object" == typeof i && i instanceof URL && (r = i.href), K(this, r); var a = ("" + (i && i instanceof W && i.method || n.method || "GET")).toUpperCase(); this.params.method = a, this.txSize = Z(n.body) || 0 } function w(e, t) { var n; this.endTime = (0, S.z)(), this.params || (this.params = {}), this.params.status = t ? t.status : 0, "string" == typeof this.rxSize && this.rxSize.length > 0 && (n = +this.rxSize); var a = { txSize: this.txSize, rxSize: n, duration: (0, S.z)() - this.startTime }; i("xhr", [this.params, a, this.startTime, this.endTime, "fetch"], this, r.D.ajax) } function A(e) { var t = this.params, n = this.metrics; if (!this.ended) { this.ended = !0; for (var a = 0; a < G; a++)e.removeEventListener(V[a], this.listener, !1); t.aborted || (n.duration = (0, S.z)() - this.startTime, this.loadCaptureCalled || 4 !== e.readyState ? null == t.status && (t.status = 0) : _(this, e), n.cbTime = this.cbTime, i("xhr", [t, n, this.startTime, this.endTime, "xhr"], this, r.D.ajax)) } } function _(e, t) { e.params.status = t.status; var r = function (e, t) { var r = e.responseType; return "json" === r && null !== t ? t : "arraybuffer" === r || "blob" === r || "json" === r ? Z(e.response) : "text" === r || "" === r || void 0 === r ? Z(e.responseText) : void 0 }(t, e.lastSize); if (r && (e.metrics.rxSize = r), e.sameOrigin) { var n = t.getResponseHeader("X-NewRelic-App-Data"); n && (e.params.cat = n.split(", ").pop()) } e.loadCaptureCalled = !0 } t.on("new-xhr", o), t.on("open-xhr-start", s), t.on("open-xhr-end", c), t.on("send-xhr-start", d), t.on("xhr-cb-time", u), t.on("xhr-load-added", f), t.on("xhr-load-removed", h), t.on("xhr-resolved", p), t.on("addEventListener-end", g), t.on("removeEventListener-end", m), t.on("fn-end", b), t.on("fetch-before-start", y), t.on("fetch-start", x), t.on("fn-start", v), t.on("fetch-done", w) }(e, this.ee, this.handler, this.dt), this.importAggregator() } } } function K(e, t) { var r = (0, B.e)(t), n = e.params || e; n.hostname = r.hostname, n.port = r.port, n.protocol = r.protocol, n.host = r.hostname + ":" + r.port, n.pathname = r.pathname, e.parsedOrigin = r, e.sameOrigin = r.sameOrigin } var Y = i(3614); const { BST_RESOURCE: J, RESOURCE: ee, START: te, END: re, FEATURE_NAME: ne, FN_END: ie, FN_START: ae, PUSH_STATE: oe } = Y; var se = i(7144); class ce extends f { static featureName = se.t; constructor(e, t) { let r = !(arguments.length > 2 && void 0 !== arguments[2]) || arguments[2]; super(e, t, se.t, r), this.importAggregator() } } var de = i(4649); class ue extends f { static featureName = de.t; constructor(e, t) { let r = !(arguments.length > 2 && void 0 !== arguments[2]) || arguments[2]; super(e, t, de.t, r), this.importAggregator() } } new class extends t { constructor(t) { let r = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : (0, _.ky)(16); super(), l._A ? (this.agentIdentifier = r, this.sharedAggregator = new v({ agentIdentifier: this.agentIdentifier }), this.features = {}, this.desiredFeatures = new Set(t.features || []), this.desiredFeatures.add(p), Object.assign(this, (0, s.j)(this.agentIdentifier, t, t.loaderType || "agent")), this.run()) : (0, e.Z)("Failed to initial the agent. Could not determine the runtime environment.") } get config() { return { info: (0, n.C5)(this.agentIdentifier), init: (0, n.P_)(this.agentIdentifier), loader_config: (0, n.DL)(this.agentIdentifier), runtime: (0, n.OP)(this.agentIdentifier) } } run() { const t = "features"; try { const n = o(this.agentIdentifier), i = [...this.desiredFeatures]; i.sort(((e, t) => r.p[e.featureName] - r.p[t.featureName])), i.forEach((t => { if (n[t.featureName] || t.featureName === r.D.pageViewEvent) { const i = function (e) { switch (e) { case r.D.ajax: return [r.D.jserrors]; case r.D.sessionTrace: return [r.D.ajax, r.D.pageViewEvent]; case r.D.sessionReplay: return [r.D.sessionTrace]; case r.D.pageViewTiming: return [r.D.pageViewEvent]; default: return [] } }(t.featureName); i.every((e => n[e])) || (0, e.Z)("".concat(t.featureName, " is enabled but one or more dependent features has been disabled (").concat((0, E.P)(i), "). This may cause unintended consequences or missing data...")), this.features[t.featureName] = new t(this.agentIdentifier, this.sharedAggregator) } })), (0, A.Qy)(this.agentIdentifier, this.features, t) } catch (r) { (0, e.Z)("Failed to initialize all enabled instrument classes (agent aborted) -", r); for (const e in this.features) this.features[e].abortHandler?.(); const n = (0, A.fP)(); return delete n.initializedAgents[this.agentIdentifier]?.api, delete n.initializedAgents[this.agentIdentifier]?.[t], delete this.sharedAggregator, n.ee?.abort(), delete n.ee?.get(this.agentIdentifier), !1 } } addToTrace(t) { (0, e.Z)("Call to agent api addToTrace failed. The session trace feature is not currently initialized.") } setCurrentRouteName(t) { (0, e.Z)("Call to agent api setCurrentRouteName failed. The spa feature is not currently initialized.") } interaction() { (0, e.Z)("Call to agent api interaction failed. The spa feature is not currently initialized.") } }({ features: [p, P, class extends f { static featureName = ne; constructor(e, t) { if (super(e, t, ne, !(arguments.length > 2 && void 0 !== arguments[2]) || arguments[2]), !l.il) return; const n = this.ee; let i; (0, F.QU)(n), this.eventsEE = (0, F.em)(n), this.eventsEE.on(ae, (function (e, t) { this.bstStart = (0, S.z)() })), this.eventsEE.on(ie, (function (e, t) { (0, T.p)("bst", [e[0], t, this.bstStart, (0, S.z)()], void 0, r.D.sessionTrace, n) })), n.on(oe + te, (function (e) { this.time = (0, S.z)(), this.startPath = location.pathname + location.hash })), n.on(oe + re, (function (e) { (0, T.p)("bstHist", [location.pathname + location.hash, this.startPath, this.time], void 0, r.D.sessionTrace, n) })); try { i = new PerformanceObserver((e => { const t = e.getEntries(); (0, T.p)(J, [t], void 0, r.D.sessionTrace, n) })), i.observe({ type: ee, buffered: !0 }) } catch (e) { } this.importAggregator({ resourceObserver: i }) } }, ce, Q, O, ue, I], loaderType: "pro" }) })() })();</script>
+  <meta src='version-1685399515' data-turbolinks-track />
+  <link rel="canonical" href="https://www.aakashsubedi.com.np" />
+
+
+
+  <script type='text/javascript'>
+    try { function css_browser_selector(u) { var ua = u.toLowerCase(), is = function (t) { return ua.indexOf(t) > -1 }, g = 'gecko', w = 'webkit', s = 'safari', o = 'opera', m = 'mobile', h = document.documentElement, b = [(!(/opera|webtv/i.test(ua)) && /msie\s(\d)/.test(ua)) ? ('ie ie' + RegExp.$1) : is('firefox/2') ? g + ' ff2' : is('firefox/3.5') ? g + ' ff3 ff3_5' : is('firefox/3.6') ? g + ' ff3 ff3_6' : is('firefox/3') ? g + ' ff3' : is('gecko/') ? g : is('opera') ? o + (/version\/(\d+)/.test(ua) ? ' ' + o + RegExp.$1 : (/opera(\s|\/)(\d+)/.test(ua) ? ' ' + o + RegExp.$2 : '')) : is('konqueror') ? 'konqueror' : is('blackberry') ? m + ' blackberry' : is('android') ? m + ' android' : is('chrome') ? w + ' chrome' : is('iron') ? w + ' iron' : is('applewebkit/') ? w + ' ' + s + (/version\/(\d+)/.test(ua) ? ' ' + s + RegExp.$1 : '') : is('mozilla/') ? g : '', is('j2me') ? m + ' j2me' : is('iphone') ? m + ' iphone' : is('ipod') ? m + ' ipod' : is('ipad') ? m + ' ipad' : is('mac') ? 'mac' : is('darwin') ? 'mac' : is('webtv') ? 'webtv' : is('win') ? 'win' + (is('windows nt 6.0') ? ' vista' : '') : is('freebsd') ? 'freebsd' : (is('x11') || is('linux')) ? 'linux' : '', 'js']; c = b.join(' '); h.className += ' ' + c; return c; }; css_browser_selector(navigator.userAgent); } catch (e) { }
+  </script>
+
+
+  <!-- fonts -->
+
+
+
+  <link href='/static/theme_api/v1/hosted_fonts-b36e12610dfd0c67794939b7908cd3df47450cd5d5ce0e153c4b67db1a02bd9a.css'
+    media='screen' rel='stylesheet' type='text/css' />
+
+  <link
+    href='/static/theme_api/vendor/webtype_fonts.min-a27384810945198dd373502796bfbada62cc8409c49831a8778ac894e78f7749.css'
+    media='screen' rel='stylesheet' type='text/css' />
+
+
+
+
+
+  <title>Design - Aakash Subedi's Design Portfolio</title>
+
+  <link
+    href='https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,16,16,16,16/0-0-0/99c853ca-57e1-4ddd-8829-82eaff04022e/1/1/ICO1.png?fjkss=exp=2012788558~hmac=ce6ba48530c2c85ef7273b99bcf92ed5153943d35927a45313e05ee40689f532'
+    rel='icon' sizes="16x16" />
+
+  <link
+    href='https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,16,16,32,32/0-0-0/99c853ca-57e1-4ddd-8829-82eaff04022e/1/1/ICO1.png?fjkss=exp=2012788558~hmac=733004b14ecc56aaf23e05d559227904b9b0de19b83906d9a4e4077f9fa87f1f'
+    rel='icon' sizes="32x32" />
+
+  <link
+    href='https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,16,16,96,96/0-0-0/99c853ca-57e1-4ddd-8829-82eaff04022e/1/1/ICO1.png?fjkss=exp=2012788558~hmac=518af2d3e95feef6118b0d7e040ea8a86439fd2ab4f3613095f167b2218ca45f'
+    rel='icon' sizes="96x96" />
+
+  <link
+    href='https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,16,16,192,192/0-0-0/99c853ca-57e1-4ddd-8829-82eaff04022e/1/1/ICO1.png?fjkss=exp=2012788558~hmac=a3dbddc48c8df2f8c12520adc2392ef1cfc6ec2047f56c01002e91a9c9b223e8'
+    rel='icon' sizes="192x192" />
+
+
+
+  <meta content='true' name='protect_images' />
+
+
+  <meta name="current_path" content="/">
+  <meta name="image_protection_blurb" content="Copyright © Aakash Subedi">
+  <meta name="description" content="Selected works in product, UX/UI design and illustration.">
+  <meta property="og:site_name" content="Aakash Subedi's Design Portfolio">
+  <meta property="og:title" content="Design - Aakash Subedi's Design Portfolio">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.aakashsubedi.com.np/design">
+  <meta property="og:image"
+    content="https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,650,1600,1200/0-0-0/8ea90253-97b4-4729-b4f7-f45c6fd7ffba/1/2/Reels5.gif?fjkss=exp=2012788558~hmac=3d4e411271ac9b44aa3f419b29c7051ad70787700cd5e2f0386a5fcfca04c04d">
+  <meta property="og:image:width" content="960">
+  <meta property="og:image:height" content="653">
+  <meta property="og:description" content="Selected works in product, UX/UI design and illustration.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Design - Aakash Subedi's Design Portfolio">
+  <meta name="twitter:description" content="Selected works in product, UX/UI design and illustration.">
+
+
+
+
+
+
+
+
+
+  <link href='/static/theme_api/v2/share_panel-1a26721acae26eabd7c32296e2ee8cf053d1a1a8d9f7c49f0df899bc27b784c1.css'
+    media='screen' rel='stylesheet' type='text/css' />
+  <link
+    href='/static/theme_api/v1/protected_images-6cc002aad772e14af53bbbb966d0611491b39e25fc8fba42e94598f98d535828.css'
+    media='screen' rel='stylesheet' type='text/css' />
+  <link
+    href='/static/theme_api/vendor/font-awesome.min-3.0.2-3149da3014aff38a256574aa7aa1b947387efee9cdc1fb2d39e234606f231c96.css'
+    media='screen' rel='stylesheet' type='text/css' />
+  <link href='/static/theme_api/v2/theme_social-c1a1efec6fec6394de599718f42893465add95600b60ad31fb468ad0a69147a5.css'
+    media='screen' rel='stylesheet' type='text/css' />
+  <link href='/static/theme_api/v2/sales/cart-4d5bed841e04f35cada9bb41f30882005c189af13e193524545f285f7c279533.css'
+    media='screen' rel='stylesheet' type='text/css' />
+
+
+
+
+
+  <!--[if IE 7]>
+<link rel="stylesheet" href="/static/theme_api/v2/theme_social-ie7-e0b58b4496ed3cf9a2fb98382fa1ca8c7e2019e42fa1ac767e9b28ffded26cdd.css">
+<![endif]-->
+  <!--[if IE 8]>
+<link rel="stylesheet" href="/static/theme_api/v2/theme_social-ie7-e0b58b4496ed3cf9a2fb98382fa1ca8c7e2019e42fa1ac767e9b28ffded26cdd.css">
+<![endif]-->
+
+
+
+  <!--[if lt IE 9]><script src="/static/theme_api/v1/html5shiv-d55410eeb0d1e50b9558b594560e362529c60f3d70f808efe63dc16137b0226a.js"></script><![endif]-->
+  <link
+    href='/static/theme_api/v2/client_access/client-634c683b907ed9cdb94cf1f2d346b39f145813827eba5a8eee652ad6bf617dfe.css'
+    media='screen' rel='stylesheet' type='text/css' />
+  <link href='/fonts/ss-standard-v2/ss-standard.css' media='screen' rel='stylesheet' type='text/css' />
+  <link rel="stylesheet"
+    href="/static/theme_api/v2/client_access/client_modal-8620ecc2b4f7c5729898100d14a7f9a01e7e1edb0a16449ae712f0b9175ee884.css">
+
+
+
+
+
+
+  <link href='/static/theme_api/v2/blog_defaults-79d70c55d366b40da8280df474b120c87e1c1def50e6c75a4c54fc0ec914deeb.css'
+    media='screen' rel='stylesheet' type='text/css' />
+
+
+
+
+
+  <link href='//mariannegiesemann.format.com/stylesheet.css?v=2023-05-29T22:31:55Z' media='screen' rel='stylesheet'
+    type='text/css' /> <!-- NOTE: this is what is generated by the theme CSS template -->
+
+
+
+
+
+  <link
+    href='/static/theme_api/vendor/960_simple-1-80ab8eb2695abe415bd536608db207267db1a467f2841da1c01b06c3559dd9c6.css'
+    media='screen' rel='stylesheet' type='text/css' />
+  <!--[if IE 6]><link rel="stylesheet" type="text/css" href="/static/theme_api/vendor/960_simple_ie6-1-7bd0efe500ce62bd2c9d7b9669610d234a769aa83e596f861257bf87134a9813.css" media="screen" /><![endif]-->
+  <!--[if IE 7]><link rel="stylesheet" type="text/css" href="/static/theme_api/vendor/960_simple_ie-1-4b0e6d146e160134b5ba6be865d0f121e2063af118352c312cde8ae6b09213bc.css" media="screen" /><![endif]-->
+
+  <link href='/static/_common/animation-7fc12d665fca943072e7f3c6c84d756b935958c9d92f8a940de7dcfd69c2b253.css'
+    media='screen' rel='stylesheet' type='text/css' />
+
+  <!--[if lt IE 9]><script src="/static/theme_api/vendor/html5shiv-3.7.0-d55410eeb0d1e50b9558b594560e362529c60f3d70f808efe63dc16137b0226a.js"></script><![endif]-->
+  <link href='/static/theme_api/v2/blog-4c2f56b5c02abf3c28030799104d31fb1b7cb3fa71cdba247e21223fd78795ca.css'
+    media='screen' rel='stylesheet' type='text/css' />
+
+
+
+
+  <style type='text/css'>
+    .youtube_cont.preview,
+    .vimeo_cont.preview {
+      position: relative;
+    }
+
+    .youtube_cont.preview img,
+    .vimeo_cont.preview img {
+      max-width: 100%;
+      max-height: 100%;
+      height: 100%;
+      z-index: 1;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .youtube_cont.preview .load_iframe,
+    .vimeo_cont.preview .load_iframe {
+      left: 0;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-image: url('/static/vid_overlay-b935013b5cebeedb8f5d5f3e7b0c48ee08c556e2db6888045b216f172195e632.png');
+      z-index: 2;
+    }
+
+    .youtube_cont.preview iframe,
+    .vimeo_cont.preview iframe {
+      left: 0;
+      position: absolute;
+      width: inherit;
+      height: inherit;
+      z-index: 1000;
+    }
+  </style>
+
+
+
+  <style>
+    .format-instagram-icon.format-instagram-icon-heart {
+      background-image: url('/static/heart-fdbd4f0c82adfe04d7251886935bf91ac9a3948c951353b40cf519eb034bcf6f.svg');
+    }
+
+    .format-instagram-icon.format-instagram-icon-comment {
+      background-image: url('/static/left-balloon-ellipses-9b27c618ded2344503f9ff2c3022152ef29618b6fde3931dabc5f07b1d92e8a6.svg');
+    }
+  </style>
+
+  <script>
+    window._4ORMAT = window._4ORMAT || {};
+    window._4ORMAT.social = {
+      instagram: {
+        accessToken: null
+      }
+    }
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+  <!--[if lt IE 9]>
+        <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+  <script
+    src="/static/theme_api/vendor/jquery-1.11.2.min-cc83565074b3fa7f2283f7f4d56b90ad171ede87008448ed5d2e91c50575bed1.js"></script>
+  <script src="https://bucket2.format-assets.com/theme_versions/9338029/assets/js/vendor/ls.bgset.5.2.2.min.js"
+    defer></script>
+  <script src="https://bucket2.format-assets.com/theme_versions/9338029/assets/js/vendor/ls.respimg.5.2.1.min.js"
+    defer></script>
+  <script src="https://bucket2.format-assets.com/theme_versions/9338029/assets/js/vendor/lazysizes.5.2.2.min.js"
+    defer></script>
+
+  <script
+    src="/static/theme_api/vendor/viewport-units-buggyfill-0.5.4-383f4629f959f1b60996126da1eef119c597f3aacaf016bcaa5b80d6c5c90d94.js"></script>
+  <script
+    src="/static/theme_api/vendor/jquery.fitvid-1.1-3c6ad5325f55063e1946e70fdf572de4ee3d6c3013b28e54a8e845486271f154.js"></script>
+  <script
+    src="/static/theme_api/vendor/fastclick-1aa08cb3c7aa70d268d24d59c374c14af7bd08e0af8c85f8e4f60a2651f4bab5.js"></script>
+
+  <script
+    src="https://bucket2.format-assets.com/theme_versions/9338029/assets/js/vendor/jquery.flexslider-min.js"></script>
+  <script
+    src="/static/theme_api/vendor/masonry.pkgd-4.2.2.min-8d645c617dae902d017672ffda525cc733715da09ddf3d8e52129f0ac480f0c6.js"></script>
+  <script src="https://bucket2.format-assets.com/theme_versions/9338029/assets/js/vendor/swiped-events.min.js"></script>
+  <script src="https://bucket2.format-assets.com/theme_versions/9338029/assets/js/theme.js"></script>
+</head>
+
+<body class="page-4231849 listing  horizontal">
+  <script type="text/javascript">
+    if ((!(window.ActiveXObject) && "ActiveXObject" in window) || (/Edge\/\d./i.test(navigator.userAgent))) { document.getElementsByTagName('body')[0].className += " ie"; }
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <header id="header" class="header header--landscape fixed header--listing ">
+    <div class="header-container">
+
+
+
+      <h1 class="logo">
+        <a href="design.html">
+          AAKASH SUBEDI
+        </a>
+      </h1>
+
+
+      <button class="toggle-menu toggle-menu-open">
+        <span class="open">
+          <svg xmlns="http://www.w3.org/2000/svg" width="34" height="22" viewBox="0 0 34 22" version="1.1">
+            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g transform="translate(-1366.000000, -75.000000)" stroke="#000000" stroke-width="2">
+                <g transform="translate(1366.000000, 75.000000)">
+                  <path d="M0 1L34 1" />
+                  <path d="M0 11L34 11" />
+                  <path d="M0 21L34 21" />
+                </g>
+              </g>
+            </g>
+          </svg>
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" version="1.1">
+            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g transform="translate(-116.000000, -33.000000)" stroke="#000000" stroke-width="2">
+                <g transform="translate(116.000000, 33.000000)">
+                  <path d="M0 13L24 13" />
+                  <path d="M0 1L24 1" />
+                </g>
+              </g>
+            </g>
+          </svg>
+        </span>
+      </button>
+
+
+
+      <nav class="menu">
+        <div class="toggle-menu-close-wrapper">
+          <button class="toggle-menu toggle-menu-close">
+            <span class="close">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" version="1.1">
+                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g transform="translate(-1330.000000, -83.000000)" stroke="#000000" stroke-width="2">
+                    <g transform="translate(1331.000000, 84.000000)">
+                      <path d="M0 24L24 0" />
+                      <path d="M0 24L24 0"
+                        transform="translate(12.000000, 12.000000) scale(-1, 1) translate(-12.000000, -12.000000) " />
+                    </g>
+                  </g>
+                </g>
+              </svg>
+
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" version="1.1">
+                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g transform="translate(-76.000000, -29.000000)" stroke="#000000" stroke-width="2">
+                    <g transform="translate(77.000000, 30.000000)">
+                      <path d="M0.5 17.5L17.5 0.5" />
+                      <path d="M0.5 17.5L17.5 0.5"
+                        transform="translate(9.000000, 9.000000) scale(-1, 1) translate(-9.000000, -9.000000) " />
+                    </g>
+                  </g>
+                </g>
+              </svg>
+
+            </span>
+          </button>
+        </div>
+        <ul class="main-menu">
+
+
+
+          <li class="menu-item item selected"><a href="/design.html">Design</a></li>
+
+
+
+
+
+          <li class="menu-item item "><a href="/illustration.html">Illustration</a></li>
+
+
+
+
+
+          <li class="menu-item item "><a href="/about.html">About</a></li>
+
+
+
+
+        </ul>
+
+        <nav class="social">
+          <ul>
+
+
+
+
+
+
+            <li>
+              <a href="https://www.instagram.com/aakashsubedy" class="social-link" target="_blank" title="Instagram">
+
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="-70 -150 1000 1000" class="social-icon">
+                  <path fill="currentColor"
+                    d="M571 500q0-59-41-101t-101-42-101 42-42 101 42 101 101 42 101-42 41-101zm77 0q0 91-64 156t-155 64-156-64-64-156 64-156 156-64 155 64 64 156zm61-229q0 21-15 36t-37 15-36-15-15-36 15-36 36-15 37 15 15 36zM429 148H327l-54 2-57 5-40 11q-28 11-49 32t-33 49q-6 16-10 40t-6 58-1 53 0 59 0 43 0 43 0 59 1 53 6 58l10 40q12 28 33 49t49 32q16 6 40 11t57 5 54 2 59 0 43 0 42 0 59 0 54-2 58-5 39-11q28-11 50-32t32-49q6-16 10-40t6-58 1-53 0-59 0-43 0-43 0-59-1-53-6-58l-10-40q-11-28-32-49t-50-32q-16-6-39-11t-58-5-54-2-59 0-42 0zm428 352q0 128-3 177-5 116-69 180t-179 69q-50 3-177 3t-177-3q-116-6-180-69T3 677q-3-49-3-177t3-177q5-116 69-180t180-69q49-3 177-3t177 3q116 6 179 69t69 180q3 49 3 177z">
+                  </path>
+                </svg>
+
+
+              </a>
+            </li>
+
+
+
+
+
+
+
+            <li>
+              <a href="https://twitter.com/AakashSubedy" class="social-link" target="_blank" title="Twitter">
+
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 -150 1000 1000" class="social-icon">
+                  <path fill="currentColor"
+                    d="M904 228q-37 54-90 93v23q0 73-21 145t-64 139-103 117-144 82-181 30q-151 0-276-81 19 3 43 3 126 0 224-77-59-2-105-36t-64-89q19 2 34 2 24 0 48-6-63-13-104-62T60 396v-2q38 21 82 23-37-25-59-64t-22-86q0-49 25-91 68 83 164 133t208 55q-5-21-5-41 0-75 53-127t127-53q79 0 132 57 61-12 114-44-20 64-79 100 52-6 104-28z">
+                  </path>
+                </svg>
+
+
+              </a>
+            </li>
+
+
+
+
+
+
+
+            <li>
+              <a href="https://www.linkedin.com/in/aakashsubedi007/" class="social-link" target="_blank"
+                title="LinkedIn">
+
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="-60 -150 1000 1000" class="social-icon">
+                  <path fill="currentColor"
+                    d="M195 349v553H11V349h184zm12-171q0 41-29 68t-75 27h-1q-46 0-74-27T0 178t29-68 75-27 74 27 29 68zm650 407v317H674V606q0-59-23-92t-71-33q-35 0-58 19t-36 48q-6 17-6 45v309H296q1-223 1-361V376l-1-27h184v80h-1q11-18 23-31t31-29 49-24 64-9q95 0 153 63t58 186z">
+                  </path>
+                </svg>
+
+
+              </a>
+            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          </ul>
+        </nav>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+
+
+
+
+
+
+
+
+
+
+
+  <main class="main landscape">
+
+
+    <script>
+      if (Math.floor(Math.random() * 100) < 1) {
+        const Http = new XMLHttpRequest();
+        Http.open("GET", '/track?ref=' + document.referrer);
+        Http.send();
+      }
+    </script>
+    <div class="grid">
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+      <div class="asset hide-caption">
+        <a href="/inksvilla.html">
+          <canvas class="image-placeholder" width="1600" height="1200" style="background-color:
+        
+          #F5FFF9
+        
+      ;"></canvas>
+          <div
+          style="background-image:url(designimage/inksvilla/cover.png);"
+
+            class="asset-holder lazyload">
+          </div>
+
+          <div class="title" title= "Inksvilla">Inksvilla Application</div>
+          <div class="asset-mask"></div>
+
+        </a>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+      <div class="asset hide-caption">
+        <a href="foodhub.html">
+          <canvas class="image-placeholder" width="1600" height="1200" style="background-color:
+        
+          #F3F3F3
+        
+      ;"></canvas>
+          <div
+            style="background-image:url(designimage/foodhub/cover.png);"
+            data-sizes="auto"
+
+            class="asset-holder lazyload">
+          </div>
+
+          <div class="title" title= "Foodhub">Food Hub</div>
+          <div class="asset-mask"></div>
+
+        </a>
+      </div>
+
+
+      <div class="asset hide-caption">
+        <a href="jumpnations.html">
+          <canvas class="image-placeholder" width="1600" height="1200" style="background-color:
+        
+          #F3F3F3
+        
+      ;"></canvas>
+          <div
+            style="background-image:url(designimage/jumpNations/cover.png);"
+            data-sizes="auto"
+
+            class="asset-holder lazyload">
+          </div>
+
+          <div class="title" title= "Jumpnations">Jump Nations</div>
+          <div class="asset-mask"></div>
+
+        </a>
+      </div>
+
+      <div class="asset hide-caption">
+        <a href="anavrinStore.html">
+          <canvas class="image-placeholder" width="1600" height="1200" style="background-color:
+        
+          #F3F3F3
+        
+      ;"></canvas>
+          <div
+            style="background-image:url(designimage/anavrinStore/cover.png);"
+            data-sizes="auto"
+
+            class="asset-holder lazyload">
+          </div>
+
+          <div class="title" title= "Anavrin">Anavrin E-commerce</div>
+          <div class="asset-mask"></div>
+
+        </a>
+      </div>
+
+      <div class="asset hide-caption">
+        <a href="businessConsulting.html">
+          <canvas class="image-placeholder" width="1600" height="1200" style="background-color:
+        
+          #F3F3F3
+        
+      ;"></canvas>
+          <div
+            style="background-image:url(designimage/bigfootWebsite/cover.jpg);"
+            data-sizes="auto"
+
+            class="asset-holder lazyload">
+          </div>
+
+          <div class="title" title= "Bigfoot">Bigfoot Website</div>
+          <div class="asset-mask"></div>
+
+        </a>
+      </div>
+
+      <div class="asset hide-caption">
+        <a href="gTech.html">
+          <canvas class="image-placeholder" width="1600" height="1200" style="background-color:
+        
+          #F3F3F3
+        
+      ;"></canvas>
+          <div
+            style="background-image:url(designimage/gTech/cover.jpg);"
+            data-sizes="auto"
+
+            class="asset-holder lazyload">
+          </div>
+
+          <div class="title" title= "Gtech">Green Tech Pitch Deck</div>
+          <div class="asset-mask"></div>
+
+        </a>
+      </div>
+
+  </main>
+
+
+  <footer class="footer">
+    <div class="footer-container">
+      <nav class="social">
+        <ul>
+
+
+
+
+
+
+          <li>
+            <a href="https://www.instagram.com/aakashsubedy" class="social-link" target="_blank" title="Instagram">
+
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="-70 -150 1000 1000" class="social-icon">
+                <path fill="currentColor"
+                  d="M571 500q0-59-41-101t-101-42-101 42-42 101 42 101 101 42 101-42 41-101zm77 0q0 91-64 156t-155 64-156-64-64-156 64-156 156-64 155 64 64 156zm61-229q0 21-15 36t-37 15-36-15-15-36 15-36 36-15 37 15 15 36zM429 148H327l-54 2-57 5-40 11q-28 11-49 32t-33 49q-6 16-10 40t-6 58-1 53 0 59 0 43 0 43 0 59 1 53 6 58l10 40q12 28 33 49t49 32q16 6 40 11t57 5 54 2 59 0 43 0 42 0 59 0 54-2 58-5 39-11q28-11 50-32t32-49q6-16 10-40t6-58 1-53 0-59 0-43 0-43 0-59-1-53-6-58l-10-40q-11-28-32-49t-50-32q-16-6-39-11t-58-5-54-2-59 0-42 0zm428 352q0 128-3 177-5 116-69 180t-179 69q-50 3-177 3t-177-3q-116-6-180-69T3 677q-3-49-3-177t3-177q5-116 69-180t180-69q49-3 177-3t177 3q116 6 179 69t69 180q3 49 3 177z">
+                </path>
+              </svg>
+
+
+            </a>
+          </li>
+
+
+
+
+
+
+
+          <li>
+            <a href="https://www.linkedin.com/in/aakashsubedi007/" class="social-link" target="_blank" title="Twitter">
+
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 -150 1000 1000" class="social-icon">
+                <path fill="currentColor"
+                  d="M904 228q-37 54-90 93v23q0 73-21 145t-64 139-103 117-144 82-181 30q-151 0-276-81 19 3 43 3 126 0 224-77-59-2-105-36t-64-89q19 2 34 2 24 0 48-6-63-13-104-62T60 396v-2q38 21 82 23-37-25-59-64t-22-86q0-49 25-91 68 83 164 133t208 55q-5-21-5-41 0-75 53-127t127-53q79 0 132 57 61-12 114-44-20 64-79 100 52-6 104-28z">
+                </path>
+              </svg>
+
+
+            </a>
+          </li>
+
+
+
+
+
+
+
+          <li>
+            <a href="https://www.linkedin.com/in/aakashsubedi007/" class="social-link" target="_blank"
+              title="LinkedIn">
+
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="-60 -150 1000 1000" class="social-icon">
+                <path fill="currentColor"
+                  d="M195 349v553H11V349h184zm12-171q0 41-29 68t-75 27h-1q-46 0-74-27T0 178t29-68 75-27 74 27 29 68zm650 407v317H674V606q0-59-23-92t-71-33q-35 0-58 19t-36 48q-6 17-6 45v309H296q1-223 1-361V376l-1-27h184v80h-1q11-18 23-31t31-29 49-24 64-9q95 0 153 63t58 186z">
+                </path>
+              </svg>
+
+
+            </a>
+          </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </ul>
+      </nav>
+
+      <p class="copyright">Aakash Subedi ©&nbsp;2023&nbsp;</p>
+    </div>
+  </footer>
+
+
+
+  <script>
+    var _gaq = _gaq || [];
+
+  </script>
+
+  <style type="text/css">
+    b,
+    strong {
+      font-weight: bold;
+    }
+
+    i,
+    em {
+      font-style: italic;
+    }
+
+    html body #using {
+      height: auto !important;
+      left: auto !important;
+      line-height: 1 !important;
+      margin: 0 !important;
+      opacity: 0.5 !important;
+      padding: 0 !important;
+      position: fixed !important;
+      text-indent: 0 !important;
+      top: auto !important;
+      visibility: visible !important;
+      width: auto !important;
+      z-index: 2147483647 !important;
+      -webkit-transform: none !important;
+      -moz-transform: none !important;
+      -ms-transform: none !important;
+      -o-transform: none !important;
+      transform: none !important;
+      -webkit-font-smoothing: antialiased;
+
+      color: #555555 !important;
+
+      font-size: 11px;
+      font-family: Arial, sans-serif !important;
+      display: block !important;
+
+
+      bottom: 20px !important;
+
+
+
+
+      right: 20px !important;
+
+
+      word-spacing: 0px !important;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      cursor: default;
+    }
+
+    html body #using::before,
+    html body #using::after {
+      display: none !important;
+    }
+
+    #using a {
+      opacity: 1 !important;
+      z-index: 2147483647 !important;
+      display: inline !important;
+      position: static !important;
+      text-decoration: none !important;
+      border-bottom: 1px #555 solid !important;
+      padding-bottom: 0.1em;
+
+      color: #555555 !important;
+
+    }
+
+    #using a:hover {
+      color: #000000 !important;
+      border-bottom-color: #000000 !important;
+      text-decoration: none !important;
+    }
+  </style>
+
+
+  <div id='g024-info-wrap'>
+    <div id='g024-info'></div>
+  </div>
+
+  <style type="text/css">
+    b,
+    strong {
+      font-weight: bold;
+    }
+
+    i,
+    em {
+      font-style: italic;
+    }
+
+    #g024-info-wrap {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 99999;
+      width: 101%;
+    }
+
+    .g024-info-class {
+      position: relative;
+      width: 100%;
+      height: 80px;
+      background-color: #F5F2ED;
+      box-shadow: 0 4px 2px -2px #DAD9DE;
+    }
+
+    .g024-info-class .computer-svg {
+      background-image: url('/static/g024_computer_icon-1353da85caca09c6b2a1b5dba851ece8f6c48abacfbc87a75eea2b63e4a72729.svg');
+      display: block;
+      width: 40px;
+      height: 27px;
+      position: absolute;
+      left: 12px;
+      top: 25px;
+      background-repeat: no-repeat;
+    }
+
+    .g024-info-class .close-icon-svg {
+      background-image: url('/static/g024_close_icon-14b56df6978661077225d9afd540dba457eb66a919718b90d3c1cff876c4e119.svg');
+      background-color: transparent;
+      border: none;
+      display: block;
+      width: 19px;
+      height: 19px;
+      position: absolute;
+      right: 16px;
+      top: 16px;
+      background-repeat: no-repeat;
+    }
+
+    .g024-info-class .content {
+      display: block;
+      padding-left: 62px;
+      font-size: 14px;
+      color: #151515;
+    }
+
+    .g024-info-class .title-text {
+      margin-top: 0;
+      padding-top: 9px;
+      font-weight: bold;
+    }
+
+    .g024-info-class .main-text {
+      margin-top: -9px;
+      font-size: 12px;
+      padding-right: 55px;
+      margin-bottom: 0;
+      line-height: 16px;
+      padding-top: 13px;
+    }
+  </style>
+
+  <script type='text/javascript'>
+    function getUrlVars() {
+      var vars = {};
+      var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+        vars[key] = value;
+      });
+      return vars;
+    }
+
+    var getCookie = function (name) {
+      var value = "; " + document.cookie;
+      var parts = value.split("; " + name + "=");
+      if (parts.length == 2) return parts.pop().split(";").shift();
+    };
+
+    var handleCloseInfoClick = function () {
+      document.cookie = "G024_info_closed=yes";
+      var $info = document.getElementById("g024-info");
+      var $mainContainer = document.getElementsByClassName("container")[0];
+      var $header = document.getElementsByClassName("header")[0];
+      $info.parentNode.removeChild($info);
+      $mainContainer.style.marginTop = "0";
+      $header.style.top = "0";
+    }
+
+    var createComputerSvg = function () {
+      var computerSvg = document.createElement("span");
+      computerSvg.className = "computer-svg";
+
+      return computerSvg;
+    }
+
+    var createContent = function () {
+      var content = document.createElement("div");
+      content.className = "content";
+      var titleText = document.createElement("p");
+      titleText.className = "title-text";
+      var mainText = document.createElement("p");
+      mainText.className = "main-text";
+
+      titleText.textContent = "Your website preview.";
+      mainText.textContent = "Log in on your desktop to change the Theme, add content and customize the design."
+
+      content.append(titleText);
+      content.append(mainText);
+
+      return content;
+    }
+
+    var createCloseIconSvg = function () {
+      var closeIconSvg = document.createElement("button");
+      closeIconSvg.className = "close-icon-svg";
+      closeIconSvg.onclick = handleCloseInfoClick;
+
+      return closeIconSvg;
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+      var cookieVal = getCookie("G024_info_closed");
+      var $info = document.getElementById("g024-info");
+      var $mainContainer = document.getElementsByClassName("container")[0];
+      var $header = document.getElementsByClassName("header")[0];
+      if (
+        getUrlVars().mobiledeviceinfo === "true" &&
+        cookieVal !== "yes" &&
+        $(window).width() <= 768
+      ) {
+        $info.classList.add("g024-info-class");
+        $info.appendChild(createComputerSvg());
+        $info.appendChild(createContent());
+        $info.appendChild(createCloseIconSvg());
+        $mainContainer.style.marginTop = "80px";
+        $header.style.top = "80px";
+      }
+    })
+  </script>
+  <div id="popup-content"></div>
+
+
+  <style type="text/css">
+    /* Image Protection */
+    #image_protection_notice {
+      color: #000;
+      padding: 8px 8px;
+      width: 200px;
+      font-size: 11px;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      -moz-border-radius: 4px;
+      -webkit-border-radius: 4px;
+      border-radius: 4px;
+      background: #fff;
+      box-shadow: 0 0 5px #222;
+      -webkit-box-shadow: 0 0 5px #222;
+      -moz-box-shadow: 0 0 5px #222;
+      box-shadow: 0 0 5px #222
+    }
+  </style>
+
+  <script type='text/javascript'>
+    //<![CDATA[
+    var _4ORMAT_DATA = { "asset_base_path": "https://bucket2.format-assets.com/theme_versions/9338029/assets/", "app_domain": "www.format.com", "page": { "id": 4231849, "hide_using_4ormat": false, "type": "listing", "layout": "index_thumbnail", "name": "Design", "image_width": 200, "layout_options": null, "category_id": null, "dependencies": { "fonts": { "4ormat": true } }, "url": "/design", "access_control": "online", "is_homepage": true, "is_title_page": false, "is_title_page_without_variables": false, "cover_image": null, "sample_page": false, "has_social_integration": false, "title": null, "assets": [{ "id": 166106796, "type": "linked_image", "copy_alignment": "only", "copy": "Facebook Reels", "width": 0, "copy_width": 0, "scaled_image_width": 550, "link_url": "/fbreels", "nested_link_url": "/design/fbreels", "open_in_new_window": false, "tag": null, "link_type": "internal", "link_value": "11810821", "alt_text": "", "linked_page_type": "content", "linked_page_name": "Facebook Reels", "is_title_page": false, "dominant_color": null, "image_url_2500x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,650,2500,1687/0-0-0/8ea90253-97b4-4729-b4f7-f45c6fd7ffba/1/2/Reels5.gif?fjkss=exp=2012788558~hmac=26354c15fb41b5b4321b5bdff10a3d3b733dfb813b453af9ca505357991f3e6e", "image_dimensions_2500x0": [2500, 1686], "image_uncropped_dimensions_2500x0": [2500, 1702], "image_url_900x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,650,900,607/0-0-0/8ea90253-97b4-4729-b4f7-f45c6fd7ffba/1/2/Reels5.gif?fjkss=exp=2012788558~hmac=21b4d42218300edd3d46780b872f1a87230950a478f5c72f14288b2170eff180", "image_dimensions_900x0": [900, 607], "image_uncropped_dimensions_900x0": [900, 612], "image_url_700x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,650,700,472/0-0-0/8ea90253-97b4-4729-b4f7-f45c6fd7ffba/1/2/Reels5.gif?fjkss=exp=2012788558~hmac=d17867a800843b29a91799840408e4a37adc0c8e894145ca50eb88ff489230f0", "image_dimensions_700x0": [700, 472], "image_uncropped_dimensions_700x0": [700, 476], "image_url_550x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,650,550,371/0-0-0/8ea90253-97b4-4729-b4f7-f45c6fd7ffba/1/2/Reels5.gif?fjkss=exp=2012788558~hmac=972ea77000aa08900803361afbc42ed5e16797293d8dd3979df73436f16ec320", "image_dimensions_550x0": [550, 371], "image_uncropped_dimensions_550x0": [550, 374], "image_url_400x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,650,400,270/0-0-0/8ea90253-97b4-4729-b4f7-f45c6fd7ffba/1/2/Reels5.gif?fjkss=exp=2012788558~hmac=45cff8ab782ac7b04963a3840a9a271b621ce549665404aa70e1b28b7a07d545", "image_dimensions_400x0": [400, 269], "image_uncropped_dimensions_400x0": [400, 272], "image_url_300x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,650,300,202/0-0-0/8ea90253-97b4-4729-b4f7-f45c6fd7ffba/1/2/Reels5.gif?fjkss=exp=2012788558~hmac=40e5d6a265c4f712c3539c5fd980574b380a1e77d2ab7e611e7aa13683232fbf", "image_dimensions_300x0": [300, 202], "image_uncropped_dimensions_300x0": [300, 204], "image_url_0x900": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,650,1334,900/0-0-0/8ea90253-97b4-4729-b4f7-f45c6fd7ffba/1/2/Reels5.gif?fjkss=exp=2012788558~hmac=3df7992f130633208eec7fc8bbfa5ac1039120be501ac91a100ae971e4d4b6f9", "image_dimensions_0x900": [1334, 900], "image_uncropped_dimensions_0x900": [1321, 900], "image_url_0x700": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,650,1038,700/0-0-0/8ea90253-97b4-4729-b4f7-f45c6fd7ffba/1/2/Reels5.gif?fjkss=exp=2012788558~hmac=41a625b01a4e92f60091117ef11c5a9600a89e67e8aa575af120190958cf4b55", "image_dimensions_0x700": [1037, 700], "image_uncropped_dimensions_0x700": [1028, 700], "image_url_0x550": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,650,815,550/0-0-0/8ea90253-97b4-4729-b4f7-f45c6fd7ffba/1/2/Reels5.gif?fjkss=exp=2012788558~hmac=0aaa311f8cadeedbfaf06de49cdbc3c0b71409851466a172a167037f6f6284a4", "image_dimensions_0x550": [815, 550], "image_uncropped_dimensions_0x550": [807, 550], "image_url_0x400": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,650,593,400/0-0-0/8ea90253-97b4-4729-b4f7-f45c6fd7ffba/1/2/Reels5.gif?fjkss=exp=2012788558~hmac=ea5f9be5102800aec89733bb4bcc98a8a0a32f780e424f8713c211fc58a46586", "image_dimensions_0x400": [592, 400], "image_uncropped_dimensions_0x400": [587, 400], "image_url_0x300": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,650,445,300/0-0-0/8ea90253-97b4-4729-b4f7-f45c6fd7ffba/1/2/Reels5.gif?fjkss=exp=2012788558~hmac=105bcde7c1997fdb313a04b3e7e0f662b88c65d91d790afef785b9ae06e13d26", "image_dimensions_0x300": [444, 300], "image_uncropped_dimensions_0x300": [440, 300], "image_url_150x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,650,150,101/0-0-0/8ea90253-97b4-4729-b4f7-f45c6fd7ffba/1/2/Reels5.gif?fjkss=exp=2012788558~hmac=fb3b7682cf54a4a1207507c672d7a46f7ab2837413efff48c816b849a1358348", "image_dimensions_150x0": [150, 101], "image_uncropped_dimensions_150x0": [150, 102], "image_url_0x150": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,650,222,150/0-0-0/8ea90253-97b4-4729-b4f7-f45c6fd7ffba/1/2/Reels5.gif?fjkss=exp=2012788558~hmac=e82abca4059abfb603f4c83dffc6d7ad9fe2d8acd128e400805eac57866ad9fc", "image_dimensions_0x150": [222, 150], "image_uncropped_dimensions_0x150": [220, 150], "image_url_0x1200": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,650,1779,1200/0-0-0/8ea90253-97b4-4729-b4f7-f45c6fd7ffba/1/2/Reels5.gif?fjkss=exp=2012788558~hmac=12d7e41e2b1b9bf2a788d3dcbc140b17cb4b9152c31f154e5889d1e1baeb9846", "image_dimensions_0x1200": [1778, 1200], "image_uncropped_dimensions_0x1200": [1762, 1200], "image_url_1600x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,650,1600,1079/0-0-0/8ea90253-97b4-4729-b4f7-f45c6fd7ffba/1/2/Reels5.gif?fjkss=exp=2012788558~hmac=46d01abf5a3d7c5757740b01613711ee58be8bfb7eef112d738a0e6f436bcf13", "image_dimensions_1600x0": [1600, 1079], "image_uncropped_dimensions_1600x0": [1600, 1089], "image_url_1200x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,650,1200,810/0-0-0/8ea90253-97b4-4729-b4f7-f45c6fd7ffba/1/2/Reels5.gif?fjkss=exp=2012788558~hmac=a1246d8ee772f82d6d810364c4bfa0d11329e297ac34bfc8b7769e290fbff8a9", "image_dimensions_1200x0": [1200, 809], "image_uncropped_dimensions_1200x0": [1200, 817], "image_url_800x800": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,650,800,800/0-0-0/8ea90253-97b4-4729-b4f7-f45c6fd7ffba/1/2/Reels5.gif?fjkss=exp=2012788558~hmac=6022283b18137fbed2114edad539106d9dc3e52924443d2e0d0c546fa59d2670", "image_dimensions_800x800": [800, 800], "image_uncropped_dimensions_800x800": [800, 800], "image_url_600x600": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,650,600,600/0-0-0/8ea90253-97b4-4729-b4f7-f45c6fd7ffba/1/2/Reels5.gif?fjkss=exp=2012788558~hmac=c19e7f57eb3f1908f9671bbd21ad5e0bd740fd4d72f876405bfecbbc0f55125c", "image_dimensions_600x600": [600, 600], "image_uncropped_dimensions_600x600": [600, 600], "image_url_400x400": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,650,400,400/0-0-0/8ea90253-97b4-4729-b4f7-f45c6fd7ffba/1/2/Reels5.gif?fjkss=exp=2012788558~hmac=30a54975967ebf35e9f7c346d49d93433b430354a63bf9856a9f4a4b5c94cd14", "image_dimensions_400x400": [400, 400], "image_uncropped_dimensions_400x400": [400, 400], "image_url_300x300": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,650,300,300/0-0-0/8ea90253-97b4-4729-b4f7-f45c6fd7ffba/1/2/Reels5.gif?fjkss=exp=2012788558~hmac=bc3ec1bb60cf5ffb66c9dbaa902842bdbc2ad3b72e2081bebc2d092c13410e92", "image_dimensions_300x300": [300, 300], "image_uncropped_dimensions_300x300": [300, 300], "image_url_200x200": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,650,200,200/0-0-0/8ea90253-97b4-4729-b4f7-f45c6fd7ffba/1/2/Reels5.gif?fjkss=exp=2012788558~hmac=7070cb179e29345dc20206c62e91b900a1cd8009185e70d376872cd8a5a38561", "image_dimensions_200x200": [200, 200], "image_uncropped_dimensions_200x200": [200, 200], "image_url_100x100": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,650,100,100/0-0-0/8ea90253-97b4-4729-b4f7-f45c6fd7ffba/1/2/Reels5.gif?fjkss=exp=2012788558~hmac=87cdca0c106e1a17bfd74efda5ab6fc80b2eee6c70b9dc92fb3e66636dabed15", "image_dimensions_100x100": [100, 100], "image_uncropped_dimensions_100x100": [100, 100], "image_url_40x40": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,650,40,40/0-0-0/8ea90253-97b4-4729-b4f7-f45c6fd7ffba/1/2/Reels5.gif?fjkss=exp=2012788558~hmac=9a204e80ebc773e6d90fb25532578dfa650a59ec7bb10d4e8fbb61815a2a2504", "image_dimensions_40x40": [40, 40], "image_uncropped_dimensions_40x40": [40, 40], "image_url_600x405": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,650,600,405/0-0-0/8ea90253-97b4-4729-b4f7-f45c6fd7ffba/1/2/Reels5.gif?fjkss=exp=2012788558~hmac=ee7e340e70e3472374521b6a946dad1c3523ebe91d57b965501a9487ea8bfe82", "image_dimensions_600x405": [600, 405], "image_uncropped_dimensions_600x405": [600, 405], "image_url_400x270": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,650,400,270/0-0-0/8ea90253-97b4-4729-b4f7-f45c6fd7ffba/1/2/Reels5.gif?fjkss=exp=2012788558~hmac=45cff8ab782ac7b04963a3840a9a271b621ce549665404aa70e1b28b7a07d545", "image_dimensions_400x270": [400, 270], "image_uncropped_dimensions_400x270": [400, 270], "image_url_300x203": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,650,300,203/0-0-0/8ea90253-97b4-4729-b4f7-f45c6fd7ffba/1/2/Reels5.gif?fjkss=exp=2012788558~hmac=7027df97bd92f96f039fded01e302ee7ae082dadc032d02b24a68508d58f4d84", "image_dimensions_300x203": [300, 203], "image_uncropped_dimensions_300x203": [300, 203], "image_url_960x648": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,650,960,648/0-0-0/8ea90253-97b4-4729-b4f7-f45c6fd7ffba/1/2/Reels5.gif?fjkss=exp=2012788558~hmac=9ddc61782791bbddb5ec39f38af333b39d183e328f134262878be78a65673d17", "image_dimensions_960x648": [960, 648], "image_uncropped_dimensions_960x648": [960, 648], "image_url_200x135": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,650,200,135/0-0-0/8ea90253-97b4-4729-b4f7-f45c6fd7ffba/1/2/Reels5.gif?fjkss=exp=2012788558~hmac=901ef75a273591e5bf0b4c18b144c0084530b283499747b97f3c00b0fbac541a", "image_dimensions_200x135": [200, 135], "image_uncropped_dimensions_200x135": [200, 135], "image_url_640x264": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,650,640,264/0-0-0/8ea90253-97b4-4729-b4f7-f45c6fd7ffba/1/2/Reels5.gif?fjkss=exp=2012788558~hmac=63189c0155486c215f4682458ea5a8ff63f9eded7f47167a8662bb73c3b72107", "image_dimensions_640x264": [640, 264], "image_uncropped_dimensions_640x264": [640, 264], "image_url_750x264": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,650,750,264/0-0-0/8ea90253-97b4-4729-b4f7-f45c6fd7ffba/1/2/Reels5.gif?fjkss=exp=2012788558~hmac=61e0da8319a00227852cece671a140546c8874cf7d8ce84d0876acbff9c30577", "image_dimensions_750x264": [750, 264], "image_uncropped_dimensions_750x264": [750, 264], "image_url_1242x264": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,650,1242,264/0-0-0/8ea90253-97b4-4729-b4f7-f45c6fd7ffba/1/2/Reels5.gif?fjkss=exp=2012788558~hmac=2b92a05a7024b2393af3240879a47c5ce981a152fe6b7b2d2ec353c0ec6f620b", "image_dimensions_1242x264": [1242, 264], "image_uncropped_dimensions_1242x264": [1242, 264], "image_url_190x60": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,650,190,60/0-0-0/8ea90253-97b4-4729-b4f7-f45c6fd7ffba/1/2/Reels5.gif?fjkss=exp=2012788558~hmac=c0774894f7a60847b2bb174d86f8df9dce3e9c544fbddbf929306d3430eb4d8b", "image_dimensions_190x60": [190, 60], "image_uncropped_dimensions_190x60": [190, 60], "image_url_750x90": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,650,750,90/0-0-0/8ea90253-97b4-4729-b4f7-f45c6fd7ffba/1/2/Reels5.gif?fjkss=exp=2012788558~hmac=1533d6840c5c601a734484fa89e049e8be3e08a4a112f4c260ba13a567a83335", "image_dimensions_750x90": [750, 90], "image_uncropped_dimensions_750x90": [750, 90], "image_url_1600x1200": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,650,1600,1200/0-0-0/8ea90253-97b4-4729-b4f7-f45c6fd7ffba/1/2/Reels5.gif?fjkss=exp=2012788558~hmac=3d4e411271ac9b44aa3f419b29c7051ad70787700cd5e2f0386a5fcfca04c04d", "image_dimensions_1600x1200": [1600, 1200], "image_uncropped_dimensions_1600x1200": [1600, 1200] }, { "id": 166304091, "type": "linked_image", "copy_alignment": "only", "copy": "Facebook Conversations", "width": 0, "copy_width": 0, "scaled_image_width": 550, "link_url": "/facebook-conversations", "nested_link_url": "/design/facebook-conversations", "open_in_new_window": false, "tag": null, "link_type": "internal", "link_value": "11815490", "alt_text": "", "linked_page_type": "content", "linked_page_name": "Facebook Conversations", "is_title_page": false, "dominant_color": "#F5FFF9", "image_url_2500x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,3450,2340,2500,1696/0-0-0/318fa3d1-5755-46e4-806c-07295068b5df/1/2/Frame+5.png?fjkss=exp=2012788558~hmac=126169f4f3eb2dd6acf0a61bf58f77154153bf4eb2408f6b3c85ece3de7fe946", "image_dimensions_2500x0": [2500, 1695], "image_uncropped_dimensions_2500x0": [2500, 1695], "image_url_900x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,3450,2340,900,610/0-0-0/318fa3d1-5755-46e4-806c-07295068b5df/1/2/Frame+5.png?fjkss=exp=2012788558~hmac=b29661e6d4d7665504284a7c674971b311c4d1474cbb770f2479799623b083a0", "image_dimensions_900x0": [900, 610], "image_uncropped_dimensions_900x0": [900, 610], "image_url_700x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,3450,2340,700,475/0-0-0/318fa3d1-5755-46e4-806c-07295068b5df/1/2/Frame+5.png?fjkss=exp=2012788558~hmac=d604b916fbea68ce241a31e4588e35e611bac888a33c009b6c1095f824c24e95", "image_dimensions_700x0": [700, 474], "image_uncropped_dimensions_700x0": [700, 474], "image_url_550x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,3450,2340,550,373/0-0-0/318fa3d1-5755-46e4-806c-07295068b5df/1/2/Frame+5.png?fjkss=exp=2012788558~hmac=cdb4ae28a701d0fcd007584b8705467d2ddd4523f05a29de22176277d9231db6", "image_dimensions_550x0": [550, 373], "image_uncropped_dimensions_550x0": [550, 373], "image_url_400x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,3450,2340,400,271/0-0-0/318fa3d1-5755-46e4-806c-07295068b5df/1/2/Frame+5.png?fjkss=exp=2012788558~hmac=2772f986666487df073ecc86c29224244f73e15b5e22380ebe304f41d7862ba5", "image_dimensions_400x0": [400, 271], "image_uncropped_dimensions_400x0": [400, 271], "image_url_300x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,3450,2340,300,203/0-0-0/318fa3d1-5755-46e4-806c-07295068b5df/1/2/Frame+5.png?fjkss=exp=2012788558~hmac=6fa11a51b2ab28105b46312cc8b746fdaab6a75e7c6e14f5bd71d6b128922018", "image_dimensions_300x0": [300, 203], "image_uncropped_dimensions_300x0": [300, 203], "image_url_0x900": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,3450,2340,1327,900/0-0-0/318fa3d1-5755-46e4-806c-07295068b5df/1/2/Frame+5.png?fjkss=exp=2012788558~hmac=395b12b83791062fca4f4ef19a50c3036dab129772a768afd8443ce76a39657d", "image_dimensions_0x900": [1326, 900], "image_uncropped_dimensions_0x900": [1326, 900], "image_url_0x700": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,3450,2340,1032,700/0-0-0/318fa3d1-5755-46e4-806c-07295068b5df/1/2/Frame+5.png?fjkss=exp=2012788558~hmac=1180ba06c2d98f4d03588117a32f3f74a374cff845323940b7a81f5a450da7b3", "image_dimensions_0x700": [1032, 700], "image_uncropped_dimensions_0x700": [1032, 700], "image_url_0x550": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,3450,2340,811,550/0-0-0/318fa3d1-5755-46e4-806c-07295068b5df/1/2/Frame+5.png?fjkss=exp=2012788558~hmac=b0da0abfacf209ddd177cb0090315307b41e32a41ed57c5eeff486d2678b3474", "image_dimensions_0x550": [810, 550], "image_uncropped_dimensions_0x550": [810, 550], "image_url_0x400": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,3450,2340,590,400/0-0-0/318fa3d1-5755-46e4-806c-07295068b5df/1/2/Frame+5.png?fjkss=exp=2012788558~hmac=9ddcb822113ab00a3f430163e61245724c06e63c1fa1949689ec35208415cd69", "image_dimensions_0x400": [589, 400], "image_uncropped_dimensions_0x400": [589, 400], "image_url_0x300": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,3450,2340,442,300/0-0-0/318fa3d1-5755-46e4-806c-07295068b5df/1/2/Frame+5.png?fjkss=exp=2012788558~hmac=7f0e1cc57c2bd37dbdbc9c2ad74f85b106642dbbca1e296fd1dbdb8ce47bb34e", "image_dimensions_0x300": [442, 300], "image_uncropped_dimensions_0x300": [442, 300], "image_url_150x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,3450,2340,150,102/0-0-0/318fa3d1-5755-46e4-806c-07295068b5df/1/2/Frame+5.png?fjkss=exp=2012788558~hmac=4fca50e0c1f8ab4cfe6f40318808819ab735fbcb259ac08d87f28d24dbf8f3ca", "image_dimensions_150x0": [150, 101], "image_uncropped_dimensions_150x0": [150, 101], "image_url_0x150": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,3450,2340,221,150/0-0-0/318fa3d1-5755-46e4-806c-07295068b5df/1/2/Frame+5.png?fjkss=exp=2012788558~hmac=e049ff2b8809c12115ab893a743fb69c133a7deda2597ec818c23aeeca655d74", "image_dimensions_0x150": [221, 150], "image_uncropped_dimensions_0x150": [221, 150], "image_url_0x1200": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,3450,2340,1769,1200/0-0-0/318fa3d1-5755-46e4-806c-07295068b5df/1/2/Frame+5.png?fjkss=exp=2012788558~hmac=b46d99b34d052013fb76108ad3bad87c6304d18c76f3f706d266f5c2796776aa", "image_dimensions_0x1200": [1769, 1200], "image_uncropped_dimensions_0x1200": [1769, 1200], "image_url_1600x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,3450,2340,1600,1085/0-0-0/318fa3d1-5755-46e4-806c-07295068b5df/1/2/Frame+5.png?fjkss=exp=2012788558~hmac=47736bed6db6c120d06b57b7444d6328b1d7dc3f580770061acee00e878d38d8", "image_dimensions_1600x0": [1600, 1085], "image_uncropped_dimensions_1600x0": [1600, 1085], "image_url_1200x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,3450,2340,1200,814/0-0-0/318fa3d1-5755-46e4-806c-07295068b5df/1/2/Frame+5.png?fjkss=exp=2012788558~hmac=103180923ee2b1cc9a4fa8799d8818c07f53bf766ad0934b3fbe539475197525", "image_dimensions_1200x0": [1200, 813], "image_uncropped_dimensions_1200x0": [1200, 813], "image_url_800x800": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,3450,2340,800,800/0-0-0/318fa3d1-5755-46e4-806c-07295068b5df/1/2/Frame+5.png?fjkss=exp=2012788558~hmac=93429bbda570c388b283f59123f1e1ea5baad76b31450b538791648b6ede3b14", "image_dimensions_800x800": [800, 800], "image_uncropped_dimensions_800x800": [800, 800], "image_url_600x600": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,3450,2340,600,600/0-0-0/318fa3d1-5755-46e4-806c-07295068b5df/1/2/Frame+5.png?fjkss=exp=2012788558~hmac=ed89c38c21f4ebd03c869d5782d23bec5dca4d33455928535aacb6adc6b4cd75", "image_dimensions_600x600": [600, 600], "image_uncropped_dimensions_600x600": [600, 600], "image_url_400x400": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,3450,2340,400,400/0-0-0/318fa3d1-5755-46e4-806c-07295068b5df/1/2/Frame+5.png?fjkss=exp=2012788558~hmac=bfb47cdea34572c37db878d021f44889ddef618654ed95e172b3c64151274006", "image_dimensions_400x400": [400, 400], "image_uncropped_dimensions_400x400": [400, 400], "image_url_300x300": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,3450,2340,300,300/0-0-0/318fa3d1-5755-46e4-806c-07295068b5df/1/2/Frame+5.png?fjkss=exp=2012788558~hmac=770632b1e37a49d62392241cc82235cf306f055005102282215c96294cbcb2b4", "image_dimensions_300x300": [300, 300], "image_uncropped_dimensions_300x300": [300, 300], "image_url_200x200": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,3450,2340,200,200/0-0-0/318fa3d1-5755-46e4-806c-07295068b5df/1/2/Frame+5.png?fjkss=exp=2012788558~hmac=bf8b3e513983494e21ef3bacf65afc19bb878262741de4b58bb4c6e9cbdbcff0", "image_dimensions_200x200": [200, 200], "image_uncropped_dimensions_200x200": [200, 200], "image_url_100x100": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,3450,2340,100,100/0-0-0/318fa3d1-5755-46e4-806c-07295068b5df/1/2/Frame+5.png?fjkss=exp=2012788558~hmac=008c986aab38fd39dc45c8be8527d6d9d1d6ce8604532b3e857735805fb288b3", "image_dimensions_100x100": [100, 100], "image_uncropped_dimensions_100x100": [100, 100], "image_url_40x40": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,3450,2340,40,40/0-0-0/318fa3d1-5755-46e4-806c-07295068b5df/1/2/Frame+5.png?fjkss=exp=2012788558~hmac=268e301675d9e803b5491ee32e49f6a43902b76fcca7a7f66d1b639b314732ea", "image_dimensions_40x40": [40, 40], "image_uncropped_dimensions_40x40": [40, 40], "image_url_600x405": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,3450,2340,600,405/0-0-0/318fa3d1-5755-46e4-806c-07295068b5df/1/2/Frame+5.png?fjkss=exp=2012788558~hmac=8cd2da86d22e40f6f59144f217b1c0749094955d7660fbaa15b5439b5e64e26a", "image_dimensions_600x405": [600, 405], "image_uncropped_dimensions_600x405": [600, 405], "image_url_400x270": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,3450,2340,400,270/0-0-0/318fa3d1-5755-46e4-806c-07295068b5df/1/2/Frame+5.png?fjkss=exp=2012788558~hmac=0220afb10054afb584cb6dd2399a13e3dd552a9a209780071df2b02903695631", "image_dimensions_400x270": [400, 270], "image_uncropped_dimensions_400x270": [400, 270], "image_url_300x203": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,3450,2340,300,203/0-0-0/318fa3d1-5755-46e4-806c-07295068b5df/1/2/Frame+5.png?fjkss=exp=2012788558~hmac=6fa11a51b2ab28105b46312cc8b746fdaab6a75e7c6e14f5bd71d6b128922018", "image_dimensions_300x203": [300, 203], "image_uncropped_dimensions_300x203": [300, 203], "image_url_960x648": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,3450,2340,960,648/0-0-0/318fa3d1-5755-46e4-806c-07295068b5df/1/2/Frame+5.png?fjkss=exp=2012788558~hmac=2215505c8047ee27fe66483efe897cdb17496da79582f95b3c1547d54d901446", "image_dimensions_960x648": [960, 648], "image_uncropped_dimensions_960x648": [960, 648], "image_url_200x135": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,3450,2340,200,135/0-0-0/318fa3d1-5755-46e4-806c-07295068b5df/1/2/Frame+5.png?fjkss=exp=2012788558~hmac=8cba3ae85ea147eeb0829327cd3f9116dac5e53863d31bf523ef0f14210c23dc", "image_dimensions_200x135": [200, 135], "image_uncropped_dimensions_200x135": [200, 135], "image_url_640x264": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,3450,2340,640,264/0-0-0/318fa3d1-5755-46e4-806c-07295068b5df/1/2/Frame+5.png?fjkss=exp=2012788558~hmac=2f10a406d273c437165adeb4515275c7400b4d533185a81d6dbe7eaf196a066b", "image_dimensions_640x264": [640, 264], "image_uncropped_dimensions_640x264": [640, 264], "image_url_750x264": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,3450,2340,750,264/0-0-0/318fa3d1-5755-46e4-806c-07295068b5df/1/2/Frame+5.png?fjkss=exp=2012788558~hmac=94685113aa413ee472a5941609c288b81bea38de8fce953eb68a819fc70ffdc6", "image_dimensions_750x264": [750, 264], "image_uncropped_dimensions_750x264": [750, 264], "image_url_1242x264": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,3450,2340,1242,264/0-0-0/318fa3d1-5755-46e4-806c-07295068b5df/1/2/Frame+5.png?fjkss=exp=2012788558~hmac=e8136659b4c82ad7b73bdfbe4b1465b0a3c17ab9b7cf886f71ed1663b13765f5", "image_dimensions_1242x264": [1242, 264], "image_uncropped_dimensions_1242x264": [1242, 264], "image_url_190x60": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,3450,2340,190,60/0-0-0/318fa3d1-5755-46e4-806c-07295068b5df/1/2/Frame+5.png?fjkss=exp=2012788558~hmac=399e396e2675c58eca4c43c83ed80e15bc092d748f008c75665771ea6b62cd15", "image_dimensions_190x60": [190, 60], "image_uncropped_dimensions_190x60": [190, 60], "image_url_750x90": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,3450,2340,750,90/0-0-0/318fa3d1-5755-46e4-806c-07295068b5df/1/2/Frame+5.png?fjkss=exp=2012788558~hmac=9ce2308ffb3ab09751f085e8f9d3ec53b71b683712e1be6fcff7ab54d81c9e72", "image_dimensions_750x90": [750, 90], "image_uncropped_dimensions_750x90": [750, 90], "image_url_1600x1200": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,3450,2340,1600,1200/0-0-0/318fa3d1-5755-46e4-806c-07295068b5df/1/2/Frame+5.png?fjkss=exp=2012788558~hmac=e94922232aff849de8567c4e4edc6a1535bb3fb6055771dc1dc38854fc262eff", "image_dimensions_1600x1200": [1600, 1200], "image_uncropped_dimensions_1600x1200": [1600, 1200] }, { "id": 166218460, "type": "linked_image", "copy_alignment": "only", "copy": "Windows 10 Store", "width": 0, "copy_width": 0, "scaled_image_width": 550, "link_url": "/windows10", "nested_link_url": "/design/windows10", "open_in_new_window": false, "tag": null, "link_type": "internal", "link_value": "11813519", "alt_text": "", "linked_page_type": "content", "linked_page_name": "Windows 10 Store", "is_title_page": false, "dominant_color": "#F3F3F3", "image_url_2500x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,2500,1689/0-0-0/23232432-ea1f-48db-b540-8213ce395a7a/1/2/Store.png?fjkss=exp=2012788558~hmac=cc4dd3c888b4cdfa972e7495ff8fd638a519cc650d55f17e417e96aac85e7977", "image_dimensions_2500x0": [2500, 1689], "image_uncropped_dimensions_2500x0": [2500, 1704], "image_url_900x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,900,608/0-0-0/23232432-ea1f-48db-b540-8213ce395a7a/1/2/Store.png?fjkss=exp=2012788558~hmac=9915e4a57ba26e0dc7cda36d0ab3f5ec128ffe1ad1340b0c38c0a5d1f0b44add", "image_dimensions_900x0": [900, 608], "image_uncropped_dimensions_900x0": [900, 613], "image_url_700x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,700,473/0-0-0/23232432-ea1f-48db-b540-8213ce395a7a/1/2/Store.png?fjkss=exp=2012788558~hmac=f1ea50713b5daebb1617e8bea8553f54dd7188b3b9ffaed56532c2f9983d713f", "image_dimensions_700x0": [700, 472], "image_uncropped_dimensions_700x0": [700, 477], "image_url_550x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,550,372/0-0-0/23232432-ea1f-48db-b540-8213ce395a7a/1/2/Store.png?fjkss=exp=2012788558~hmac=9723f7284f243c7f132d986f28daa97c99417b83f5a8a6df1d11e43de47db993", "image_dimensions_550x0": [550, 371], "image_uncropped_dimensions_550x0": [550, 375], "image_url_400x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,400,270/0-0-0/23232432-ea1f-48db-b540-8213ce395a7a/1/2/Store.png?fjkss=exp=2012788558~hmac=1d900433f0b79bb6e0862dcc64fb8e52fd917ab9de0af66fdd7cacd70f97bc19", "image_dimensions_400x0": [400, 270], "image_uncropped_dimensions_400x0": [400, 272], "image_url_300x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,300,203/0-0-0/23232432-ea1f-48db-b540-8213ce395a7a/1/2/Store.png?fjkss=exp=2012788558~hmac=bd35afaee617773e3b3628865ffae263459d44c9f666252d599ceb9fef73de16", "image_dimensions_300x0": [300, 202], "image_uncropped_dimensions_300x0": [300, 204], "image_url_0x900": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,1332,900/0-0-0/23232432-ea1f-48db-b540-8213ce395a7a/1/2/Store.png?fjkss=exp=2012788558~hmac=865753031907fb2fc01f624af5cbf1645252ab20838fbb5b0911e1094e794773", "image_dimensions_0x900": [1331, 900], "image_uncropped_dimensions_0x900": [1319, 900], "image_url_0x700": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,1036,700/0-0-0/23232432-ea1f-48db-b540-8213ce395a7a/1/2/Store.png?fjkss=exp=2012788558~hmac=dc2afae54ad627f7f26d2d1fb5b18339c0568fbcc3db47695bc5325850c68d21", "image_dimensions_0x700": [1035, 700], "image_uncropped_dimensions_0x700": [1026, 700], "image_url_0x550": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,814,550/0-0-0/23232432-ea1f-48db-b540-8213ce395a7a/1/2/Store.png?fjkss=exp=2012788558~hmac=f48e8f8b869b5065ee2485789daa55cd2fa31f604f77629fd099d8719d0de499", "image_dimensions_0x550": [813, 550], "image_uncropped_dimensions_0x550": [806, 550], "image_url_0x400": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,592,400/0-0-0/23232432-ea1f-48db-b540-8213ce395a7a/1/2/Store.png?fjkss=exp=2012788558~hmac=274ff31c8ce1b357c8100d04cce5bcd09ff2389d3f0e31a11fd31d4418643b80", "image_dimensions_0x400": [591, 400], "image_uncropped_dimensions_0x400": [586, 400], "image_url_0x300": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,444,300/0-0-0/23232432-ea1f-48db-b540-8213ce395a7a/1/2/Store.png?fjkss=exp=2012788558~hmac=fdcc6be36e07923062639b50cd32b3f80ac1868e5cacd1bcce4faed4f5be5c5f", "image_dimensions_0x300": [443, 300], "image_uncropped_dimensions_0x300": [439, 300], "image_url_150x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,150,101/0-0-0/23232432-ea1f-48db-b540-8213ce395a7a/1/2/Store.png?fjkss=exp=2012788558~hmac=df1a54999c129bbacf7f7b257c5b619a04891ce47dd9e210d8c5f5e8983b0623", "image_dimensions_150x0": [150, 101], "image_uncropped_dimensions_150x0": [150, 102], "image_url_0x150": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,222,150/0-0-0/23232432-ea1f-48db-b540-8213ce395a7a/1/2/Store.png?fjkss=exp=2012788558~hmac=bd0047b9d97d51a70f89a38bdcb1ee7f88454955d9d2df711dd69a2d5532e983", "image_dimensions_0x150": [221, 150], "image_uncropped_dimensions_0x150": [219, 150], "image_url_0x1200": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,1776,1200/0-0-0/23232432-ea1f-48db-b540-8213ce395a7a/1/2/Store.png?fjkss=exp=2012788558~hmac=ad0283430b40754839510cfbdf058d426ef260b695e43ed9bd96f25c425f06e4", "image_dimensions_0x1200": [1775, 1200], "image_uncropped_dimensions_0x1200": [1759, 1200], "image_url_1600x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,1600,1081/0-0-0/23232432-ea1f-48db-b540-8213ce395a7a/1/2/Store.png?fjkss=exp=2012788558~hmac=59f561206d6a8044f3429e1be30a487e336eb5bd00da4e992ca14be79416dfee", "image_dimensions_1600x0": [1600, 1081], "image_uncropped_dimensions_1600x0": [1600, 1091], "image_url_1200x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,1200,811/0-0-0/23232432-ea1f-48db-b540-8213ce395a7a/1/2/Store.png?fjkss=exp=2012788558~hmac=50f9dd816045d6ef6b404a7f3960dfb7a1fb23bfe74756086c8e2151547757ab", "image_dimensions_1200x0": [1200, 810], "image_uncropped_dimensions_1200x0": [1200, 818], "image_url_800x800": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,800,800/0-0-0/23232432-ea1f-48db-b540-8213ce395a7a/1/2/Store.png?fjkss=exp=2012788558~hmac=f425d20eb9b8a50bf80f776eb757dfd64215d61c86baffc4de687f09c6840a93", "image_dimensions_800x800": [800, 800], "image_uncropped_dimensions_800x800": [800, 800], "image_url_600x600": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,600,600/0-0-0/23232432-ea1f-48db-b540-8213ce395a7a/1/2/Store.png?fjkss=exp=2012788558~hmac=fe629d5dbf91c7cd735dd3a874fd75797efe9104d1f064361ee78cfeb1b71605", "image_dimensions_600x600": [600, 600], "image_uncropped_dimensions_600x600": [600, 600], "image_url_400x400": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,400,400/0-0-0/23232432-ea1f-48db-b540-8213ce395a7a/1/2/Store.png?fjkss=exp=2012788558~hmac=ae8e0d01f8c21374c73bf0be53fb7e02ac4daf606622da3e593eee757e6c44da", "image_dimensions_400x400": [400, 400], "image_uncropped_dimensions_400x400": [400, 400], "image_url_300x300": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,300,300/0-0-0/23232432-ea1f-48db-b540-8213ce395a7a/1/2/Store.png?fjkss=exp=2012788558~hmac=9c3013deddee325e4408fa8bcdc4fdf7d6881936b34daa0c2950ef799e404375", "image_dimensions_300x300": [300, 300], "image_uncropped_dimensions_300x300": [300, 300], "image_url_200x200": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,200,200/0-0-0/23232432-ea1f-48db-b540-8213ce395a7a/1/2/Store.png?fjkss=exp=2012788558~hmac=7d1c662a06c55da54f16d01d96d43b128ced5383e19a812ddaf642818ccf0989", "image_dimensions_200x200": [200, 200], "image_uncropped_dimensions_200x200": [200, 200], "image_url_100x100": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,100,100/0-0-0/23232432-ea1f-48db-b540-8213ce395a7a/1/2/Store.png?fjkss=exp=2012788558~hmac=092e9163e6a1480fddd1df105e623b6b35cc2f2f0faf807cabc5707e5ad00d90", "image_dimensions_100x100": [100, 100], "image_uncropped_dimensions_100x100": [100, 100], "image_url_40x40": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,40,40/0-0-0/23232432-ea1f-48db-b540-8213ce395a7a/1/2/Store.png?fjkss=exp=2012788558~hmac=3c0b2a05ae4810725df7d83feed9aa3dcc0cf7401040733528fc3e6fc8abf578", "image_dimensions_40x40": [40, 40], "image_uncropped_dimensions_40x40": [40, 40], "image_url_600x405": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,600,405/0-0-0/23232432-ea1f-48db-b540-8213ce395a7a/1/2/Store.png?fjkss=exp=2012788558~hmac=8f0b06fa10a8656b55e314a3cb542ce7b9e7dcd7be472a149cdea8ee80ed9e23", "image_dimensions_600x405": [600, 405], "image_uncropped_dimensions_600x405": [600, 405], "image_url_400x270": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,400,270/0-0-0/23232432-ea1f-48db-b540-8213ce395a7a/1/2/Store.png?fjkss=exp=2012788558~hmac=1d900433f0b79bb6e0862dcc64fb8e52fd917ab9de0af66fdd7cacd70f97bc19", "image_dimensions_400x270": [400, 270], "image_uncropped_dimensions_400x270": [400, 270], "image_url_300x203": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,300,203/0-0-0/23232432-ea1f-48db-b540-8213ce395a7a/1/2/Store.png?fjkss=exp=2012788558~hmac=bd35afaee617773e3b3628865ffae263459d44c9f666252d599ceb9fef73de16", "image_dimensions_300x203": [300, 203], "image_uncropped_dimensions_300x203": [300, 203], "image_url_960x648": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,960,648/0-0-0/23232432-ea1f-48db-b540-8213ce395a7a/1/2/Store.png?fjkss=exp=2012788558~hmac=e1104e0b392bdea68c178d81c9b07f81a31a6cf10437a89df1b346b4defecdeb", "image_dimensions_960x648": [960, 648], "image_uncropped_dimensions_960x648": [960, 648], "image_url_200x135": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,200,135/0-0-0/23232432-ea1f-48db-b540-8213ce395a7a/1/2/Store.png?fjkss=exp=2012788558~hmac=b856a85134aeacc0a8db829317954b3e6396c65675e41063772d63decb5a43cf", "image_dimensions_200x135": [200, 135], "image_uncropped_dimensions_200x135": [200, 135], "image_url_640x264": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,640,264/0-0-0/23232432-ea1f-48db-b540-8213ce395a7a/1/2/Store.png?fjkss=exp=2012788558~hmac=a677af3aa434a90260ee9437037c873636f1d0d34289782960a56bc464525f60", "image_dimensions_640x264": [640, 264], "image_uncropped_dimensions_640x264": [640, 264], "image_url_750x264": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,750,264/0-0-0/23232432-ea1f-48db-b540-8213ce395a7a/1/2/Store.png?fjkss=exp=2012788558~hmac=379445c1abec85f42099ea0b10fa9b42eaac22264c60df4f5ac79a28b738c317", "image_dimensions_750x264": [750, 264], "image_uncropped_dimensions_750x264": [750, 264], "image_url_1242x264": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,1242,264/0-0-0/23232432-ea1f-48db-b540-8213ce395a7a/1/2/Store.png?fjkss=exp=2012788558~hmac=98318b1fa13ab2e18a9adb22f23a3c7f9b92c490efad0015a0c3b4bf0e330008", "image_dimensions_1242x264": [1242, 264], "image_uncropped_dimensions_1242x264": [1242, 264], "image_url_190x60": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,190,60/0-0-0/23232432-ea1f-48db-b540-8213ce395a7a/1/2/Store.png?fjkss=exp=2012788558~hmac=e645af71e9c681b7704bf5d4d6e13d508c27724ddf3fcc086b30579b27c03c09", "image_dimensions_190x60": [190, 60], "image_uncropped_dimensions_190x60": [190, 60], "image_url_750x90": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,750,90/0-0-0/23232432-ea1f-48db-b540-8213ce395a7a/1/2/Store.png?fjkss=exp=2012788558~hmac=518de720a2167aee5a9cd41b2b7aefbb7edddb989369e787d739adffd6f12afe", "image_dimensions_750x90": [750, 90], "image_uncropped_dimensions_750x90": [750, 90], "image_url_1600x1200": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,1600,1200/0-0-0/23232432-ea1f-48db-b540-8213ce395a7a/1/2/Store.png?fjkss=exp=2012788558~hmac=318d79d42914b6247079c6028a97e29fa498848dced08c79c84f050da4eab9eb", "image_dimensions_1600x1200": [1600, 1200], "image_uncropped_dimensions_1600x1200": [1600, 1200] }, { "id": 166119168, "type": "linked_image", "copy_alignment": "only", "copy": "Microsoft Fluent", "width": 0, "copy_width": 0, "scaled_image_width": 550, "link_url": "/fluent", "nested_link_url": "/design/fluent", "open_in_new_window": false, "tag": null, "link_type": "internal", "link_value": "11811225", "alt_text": "", "linked_page_type": "content", "linked_page_name": "Microsoft Fluent", "is_title_page": false, "dominant_color": null, "image_url_2500x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/147,0,1329,799,2500,1690/0-0-0/e47b32ba-4703-4dbd-a946-742f393a34c2/1/2/Fluent.gif?fjkss=exp=2012788558~hmac=17865d8d2b14f7cd69accf60e480cf8dd69fc8e3b9d9641fb29b03228337a98f", "image_dimensions_2500x0": [2500, 1689], "image_uncropped_dimensions_2500x0": [2500, 1353], "image_url_900x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/147,0,1329,799,900,608/0-0-0/e47b32ba-4703-4dbd-a946-742f393a34c2/1/2/Fluent.gif?fjkss=exp=2012788558~hmac=942f9cb3e3ae7bdcbab3ef477a8415d2247c21086ac1d7f2beb800308e16bdc2", "image_dimensions_900x0": [900, 608], "image_uncropped_dimensions_900x0": [900, 487], "image_url_700x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/147,0,1329,799,700,473/0-0-0/e47b32ba-4703-4dbd-a946-742f393a34c2/1/2/Fluent.gif?fjkss=exp=2012788558~hmac=0f2f2e6eccc72be010812c8e68d9bc1482965fba5c94c4d1f2f134555ed35866", "image_dimensions_700x0": [700, 473], "image_uncropped_dimensions_700x0": [700, 378], "image_url_550x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/147,0,1329,799,550,372/0-0-0/e47b32ba-4703-4dbd-a946-742f393a34c2/1/2/Fluent.gif?fjkss=exp=2012788558~hmac=030475ca10364c4de677f9db23b1db826129b25805c16b40803e6ffbdc8b3565", "image_dimensions_550x0": [550, 371], "image_uncropped_dimensions_550x0": [550, 297], "image_url_400x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/147,0,1329,799,400,270/0-0-0/e47b32ba-4703-4dbd-a946-742f393a34c2/1/2/Fluent.gif?fjkss=exp=2012788558~hmac=3f5d255b24c233b03e18b6936350bf98ac54fc32ded8ed713eff24968f5958ba", "image_dimensions_400x0": [400, 270], "image_uncropped_dimensions_400x0": [400, 216], "image_url_300x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/147,0,1329,799,300,203/0-0-0/e47b32ba-4703-4dbd-a946-742f393a34c2/1/2/Fluent.gif?fjkss=exp=2012788558~hmac=843504cca4b1cc49a8ae85ba59dfc504455083d79da722e7c96b18d71b7f2eab", "image_dimensions_300x0": [300, 202], "image_uncropped_dimensions_300x0": [300, 162], "image_url_0x900": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/147,0,1329,799,1331,900/0-0-0/e47b32ba-4703-4dbd-a946-742f393a34c2/1/2/Fluent.gif?fjkss=exp=2012788558~hmac=efafce3404e2da670b83b2478496e675da0b21e78f7d7d210b933c9987ebe8b4", "image_dimensions_0x900": [1331, 900], "image_uncropped_dimensions_0x900": [1662, 900], "image_url_0x700": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/147,0,1329,799,1036,700/0-0-0/e47b32ba-4703-4dbd-a946-742f393a34c2/1/2/Fluent.gif?fjkss=exp=2012788558~hmac=653c27335af97da578cd41597daafee680ae82d4ffe1a1c799f3c1bf45d3e0fa", "image_dimensions_0x700": [1035, 700], "image_uncropped_dimensions_0x700": [1293, 700], "image_url_0x550": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/147,0,1329,799,814,550/0-0-0/e47b32ba-4703-4dbd-a946-742f393a34c2/1/2/Fluent.gif?fjkss=exp=2012788558~hmac=c416848c0514e2944273e8ca80048a3df693f658f56cc509b1900d217f8a75f6", "image_dimensions_0x550": [813, 550], "image_uncropped_dimensions_0x550": [1016, 550], "image_url_0x400": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/147,0,1329,799,592,400/0-0-0/e47b32ba-4703-4dbd-a946-742f393a34c2/1/2/Fluent.gif?fjkss=exp=2012788558~hmac=5aed4bac102f785974be574f1690764cd23ef5796f67bb98984bc7c1495cb637", "image_dimensions_0x400": [591, 400], "image_uncropped_dimensions_0x400": [738, 400], "image_url_0x300": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/147,0,1329,799,444,300/0-0-0/e47b32ba-4703-4dbd-a946-742f393a34c2/1/2/Fluent.gif?fjkss=exp=2012788558~hmac=d6593dc34fedd7e1fafcb03a5262ed6c5c5d6825d7967ae7202409f6e64bcda6", "image_dimensions_0x300": [443, 300], "image_uncropped_dimensions_0x300": [554, 300], "image_url_150x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/147,0,1329,799,150,101/0-0-0/e47b32ba-4703-4dbd-a946-742f393a34c2/1/2/Fluent.gif?fjkss=exp=2012788558~hmac=7c0f4509238020270cc6a125446a504b0b1c9478212180b5de17ee0983718ad1", "image_dimensions_150x0": [150, 101], "image_uncropped_dimensions_150x0": [150, 81], "image_url_0x150": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/147,0,1329,799,222,150/0-0-0/e47b32ba-4703-4dbd-a946-742f393a34c2/1/2/Fluent.gif?fjkss=exp=2012788558~hmac=93d193799ea55971fb7d20f1ae52dbf16581d70975a919a8ab5765b5ea05713c", "image_dimensions_0x150": [221, 150], "image_uncropped_dimensions_0x150": [277, 150], "image_url_0x1200": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/147,0,1329,799,1775,1200/0-0-0/e47b32ba-4703-4dbd-a946-742f393a34c2/1/2/Fluent.gif?fjkss=exp=2012788558~hmac=41a70f6aacdd65bbf6fbc45e07eeddf09db56fb6c5c891ef71f2416c1e72799e", "image_dimensions_0x1200": [1775, 1200], "image_uncropped_dimensions_0x1200": [2216, 1200], "image_url_1600x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/147,0,1329,799,1600,1082/0-0-0/e47b32ba-4703-4dbd-a946-742f393a34c2/1/2/Fluent.gif?fjkss=exp=2012788558~hmac=bd4f263fdcb7dd97667f20a491c95307f6056eb5fc6f0d10cff8baa50732fcbe", "image_dimensions_1600x0": [1600, 1081], "image_uncropped_dimensions_1600x0": [1600, 866], "image_url_1200x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/147,0,1329,799,1200,811/0-0-0/e47b32ba-4703-4dbd-a946-742f393a34c2/1/2/Fluent.gif?fjkss=exp=2012788558~hmac=4f940cc0316039030ab4518e4ae96f457a77dd968c4e2d0c21e81c19b435a073", "image_dimensions_1200x0": [1200, 811], "image_uncropped_dimensions_1200x0": [1200, 649], "image_url_800x800": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/147,0,1329,799,800,800/0-0-0/e47b32ba-4703-4dbd-a946-742f393a34c2/1/2/Fluent.gif?fjkss=exp=2012788558~hmac=dd8693c2d7caf28735118373c85cc826ef0ae3989c3ad7f3dcfaeb9b86047a20", "image_dimensions_800x800": [800, 800], "image_uncropped_dimensions_800x800": [800, 800], "image_url_600x600": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/147,0,1329,799,600,600/0-0-0/e47b32ba-4703-4dbd-a946-742f393a34c2/1/2/Fluent.gif?fjkss=exp=2012788558~hmac=5ca20c69e392ac6d0a54198c65628772306be5bbfb1e2be7d0cb9bd27cefca71", "image_dimensions_600x600": [600, 600], "image_uncropped_dimensions_600x600": [600, 600], "image_url_400x400": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/147,0,1329,799,400,400/0-0-0/e47b32ba-4703-4dbd-a946-742f393a34c2/1/2/Fluent.gif?fjkss=exp=2012788558~hmac=c1ca85ee50c29ed96cd6abfca81dcc0b5b3139b5554f4781c3abec5f57b4b4db", "image_dimensions_400x400": [400, 400], "image_uncropped_dimensions_400x400": [400, 400], "image_url_300x300": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/147,0,1329,799,300,300/0-0-0/e47b32ba-4703-4dbd-a946-742f393a34c2/1/2/Fluent.gif?fjkss=exp=2012788558~hmac=9dce2828d04153e38a0be2127524abced8fcb790cda479044751870f1433be26", "image_dimensions_300x300": [300, 300], "image_uncropped_dimensions_300x300": [300, 300], "image_url_200x200": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/147,0,1329,799,200,200/0-0-0/e47b32ba-4703-4dbd-a946-742f393a34c2/1/2/Fluent.gif?fjkss=exp=2012788558~hmac=c9dffa34869644bbea66047f6d93ebf4c7b08f473f2295fa2df384e080bd59e8", "image_dimensions_200x200": [200, 200], "image_uncropped_dimensions_200x200": [200, 200], "image_url_100x100": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/147,0,1329,799,100,100/0-0-0/e47b32ba-4703-4dbd-a946-742f393a34c2/1/2/Fluent.gif?fjkss=exp=2012788558~hmac=633a3df6c505d665e0af05104745cd9db0df9a36c9bfdb9f1b52fb16bb38c61a", "image_dimensions_100x100": [100, 100], "image_uncropped_dimensions_100x100": [100, 100], "image_url_40x40": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/147,0,1329,799,40,40/0-0-0/e47b32ba-4703-4dbd-a946-742f393a34c2/1/2/Fluent.gif?fjkss=exp=2012788558~hmac=b7493caa17c3e4c2c0f9bf835ca53f494e4a60de6a04412a860ce78092e8f1c2", "image_dimensions_40x40": [40, 40], "image_uncropped_dimensions_40x40": [40, 40], "image_url_600x405": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/147,0,1329,799,600,405/0-0-0/e47b32ba-4703-4dbd-a946-742f393a34c2/1/2/Fluent.gif?fjkss=exp=2012788558~hmac=53bc62173f758519da9ed99cbe84ef169a554fcd426a69fc4d9ea8d684408f88", "image_dimensions_600x405": [600, 405], "image_uncropped_dimensions_600x405": [600, 405], "image_url_400x270": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/147,0,1329,799,400,270/0-0-0/e47b32ba-4703-4dbd-a946-742f393a34c2/1/2/Fluent.gif?fjkss=exp=2012788558~hmac=3f5d255b24c233b03e18b6936350bf98ac54fc32ded8ed713eff24968f5958ba", "image_dimensions_400x270": [400, 270], "image_uncropped_dimensions_400x270": [400, 270], "image_url_300x203": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/147,0,1329,799,300,203/0-0-0/e47b32ba-4703-4dbd-a946-742f393a34c2/1/2/Fluent.gif?fjkss=exp=2012788558~hmac=843504cca4b1cc49a8ae85ba59dfc504455083d79da722e7c96b18d71b7f2eab", "image_dimensions_300x203": [300, 203], "image_uncropped_dimensions_300x203": [300, 203], "image_url_960x648": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/147,0,1329,799,960,648/0-0-0/e47b32ba-4703-4dbd-a946-742f393a34c2/1/2/Fluent.gif?fjkss=exp=2012788558~hmac=5772ba87c0091a35715cff8b18f5d889b066b343a260136bcbda2cf3fd7fb237", "image_dimensions_960x648": [960, 648], "image_uncropped_dimensions_960x648": [960, 648], "image_url_200x135": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/147,0,1329,799,200,135/0-0-0/e47b32ba-4703-4dbd-a946-742f393a34c2/1/2/Fluent.gif?fjkss=exp=2012788558~hmac=f1f7139b4a44e5a1877266ffc88b811b16d7e346dbe46efff632507a06e6010e", "image_dimensions_200x135": [200, 135], "image_uncropped_dimensions_200x135": [200, 135], "image_url_640x264": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/147,0,1329,799,640,264/0-0-0/e47b32ba-4703-4dbd-a946-742f393a34c2/1/2/Fluent.gif?fjkss=exp=2012788558~hmac=c096f5b1e6be24066b905c72b821f2c7830eb977735d30bd9243489d924f868b", "image_dimensions_640x264": [640, 264], "image_uncropped_dimensions_640x264": [640, 264], "image_url_750x264": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/147,0,1329,799,750,264/0-0-0/e47b32ba-4703-4dbd-a946-742f393a34c2/1/2/Fluent.gif?fjkss=exp=2012788558~hmac=b46be095b65a2cd36ff022ca724bb4f227f27d56a96032250b1e0179300eff71", "image_dimensions_750x264": [750, 264], "image_uncropped_dimensions_750x264": [750, 264], "image_url_1242x264": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/147,0,1329,799,1242,264/0-0-0/e47b32ba-4703-4dbd-a946-742f393a34c2/1/2/Fluent.gif?fjkss=exp=2012788558~hmac=7fe0452832ee9993e3cfd559d55b198d95380e754e1864ef5166d7ec28d8ad28", "image_dimensions_1242x264": [1242, 264], "image_uncropped_dimensions_1242x264": [1242, 264], "image_url_190x60": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/147,0,1329,799,190,60/0-0-0/e47b32ba-4703-4dbd-a946-742f393a34c2/1/2/Fluent.gif?fjkss=exp=2012788558~hmac=d06fd3d8d95a4d2b3fd1450814cdea2f7ccfc715934ef4524e6f9113829632c5", "image_dimensions_190x60": [190, 60], "image_uncropped_dimensions_190x60": [190, 60], "image_url_750x90": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/147,0,1329,799,750,90/0-0-0/e47b32ba-4703-4dbd-a946-742f393a34c2/1/2/Fluent.gif?fjkss=exp=2012788558~hmac=603cec8ed1c82af51c20819378ecf068a1c767a2394ad10b49a2ad8a7b32c9ca", "image_dimensions_750x90": [750, 90], "image_uncropped_dimensions_750x90": [750, 90], "image_url_1600x1200": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/147,0,1329,799,1600,1200/0-0-0/e47b32ba-4703-4dbd-a946-742f393a34c2/1/2/Fluent.gif?fjkss=exp=2012788558~hmac=288db60859e71a4a20d594b39931ffde36fbeddcfd176a568e03a6aca5638f82", "image_dimensions_1600x1200": [1600, 1200], "image_uncropped_dimensions_1600x1200": [1600, 1200] }, { "id": 166220651, "type": "linked_image", "copy_alignment": "only", "copy": "Inclusive Design", "width": 0, "copy_width": 0, "scaled_image_width": 550, "link_url": "/inclusive-design", "nested_link_url": "/design/inclusive-design", "open_in_new_window": false, "tag": null, "link_type": "internal", "link_value": "11813723", "alt_text": "", "linked_page_type": "content", "linked_page_name": "Inclusive Design", "is_title_page": false, "dominant_color": "#F3F3F3", "image_url_2500x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/9,0,1191,799,2500,1690/0-0-0/f3663361-70ad-4ac6-8d71-0133b53e3863/1/2/Inclusive3.png?fjkss=exp=2012788558~hmac=833b2d552a2c5d5cba5b6bddb3a4d87d68ac09c0e6a6018857dda71960a125d8", "image_dimensions_2500x0": [2500, 1689], "image_uncropped_dimensions_2500x0": [2500, 1664], "image_url_900x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/9,0,1191,799,900,608/0-0-0/f3663361-70ad-4ac6-8d71-0133b53e3863/1/2/Inclusive3.png?fjkss=exp=2012788558~hmac=141f9d1604e07986cbb2d8e13735b8f027ec43afaf2c9efbab501f41a7553eb3", "image_dimensions_900x0": [900, 608], "image_uncropped_dimensions_900x0": [900, 599], "image_url_700x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/9,0,1191,799,700,473/0-0-0/f3663361-70ad-4ac6-8d71-0133b53e3863/1/2/Inclusive3.png?fjkss=exp=2012788558~hmac=5706c56d75f20c45a6a79519e2fdbff25327468e6c51751af143c372892f305e", "image_dimensions_700x0": [700, 473], "image_uncropped_dimensions_700x0": [700, 466], "image_url_550x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/9,0,1191,799,550,372/0-0-0/f3663361-70ad-4ac6-8d71-0133b53e3863/1/2/Inclusive3.png?fjkss=exp=2012788558~hmac=c7f9db4c2b162a20f3251d85d517de66b4c53df3fd5fc8cffcda13b3f7be7b82", "image_dimensions_550x0": [550, 371], "image_uncropped_dimensions_550x0": [550, 366], "image_url_400x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/9,0,1191,799,400,270/0-0-0/f3663361-70ad-4ac6-8d71-0133b53e3863/1/2/Inclusive3.png?fjkss=exp=2012788558~hmac=ac1e1fab985c352248e1db39af6ed16df57e40afb09da2415051b4cff57421a1", "image_dimensions_400x0": [400, 270], "image_uncropped_dimensions_400x0": [400, 266], "image_url_300x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/9,0,1191,799,300,203/0-0-0/f3663361-70ad-4ac6-8d71-0133b53e3863/1/2/Inclusive3.png?fjkss=exp=2012788558~hmac=f915d5a1cffd4468b6affee571a726941747c14e6064dcac10cab0fe292a49f1", "image_dimensions_300x0": [300, 202], "image_uncropped_dimensions_300x0": [300, 199], "image_url_0x900": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/9,0,1191,799,1331,900/0-0-0/f3663361-70ad-4ac6-8d71-0133b53e3863/1/2/Inclusive3.png?fjkss=exp=2012788558~hmac=15e43237e2b4ada4be2da5870129999d2f5bccb789fa3289534d2143bbf3dd54", "image_dimensions_0x900": [1331, 900], "image_uncropped_dimensions_0x900": [1351, 900], "image_url_0x700": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/9,0,1191,799,1036,700/0-0-0/f3663361-70ad-4ac6-8d71-0133b53e3863/1/2/Inclusive3.png?fjkss=exp=2012788558~hmac=25e59699e0f2334c3f129477cf4efd31c60ffe4a3fbf19254b034a2539e881a2", "image_dimensions_0x700": [1035, 700], "image_uncropped_dimensions_0x700": [1051, 700], "image_url_0x550": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/9,0,1191,799,814,550/0-0-0/f3663361-70ad-4ac6-8d71-0133b53e3863/1/2/Inclusive3.png?fjkss=exp=2012788558~hmac=6bb704b3d3afea53b708f3f6fae98081f261aaa030cb6a13531db93bcb0808ee", "image_dimensions_0x550": [813, 550], "image_uncropped_dimensions_0x550": [826, 550], "image_url_0x400": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/9,0,1191,799,592,400/0-0-0/f3663361-70ad-4ac6-8d71-0133b53e3863/1/2/Inclusive3.png?fjkss=exp=2012788558~hmac=0547a1e0a61c532168cd5417a048904ad2e963a5694ce09a50975d6fd00c3d95", "image_dimensions_0x400": [591, 400], "image_uncropped_dimensions_0x400": [600, 400], "image_url_0x300": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/9,0,1191,799,444,300/0-0-0/f3663361-70ad-4ac6-8d71-0133b53e3863/1/2/Inclusive3.png?fjkss=exp=2012788558~hmac=95f218f9e1777430675d8ce8248b5c4720511dc611e582e78e9ae390c46a1485", "image_dimensions_0x300": [443, 300], "image_uncropped_dimensions_0x300": [450, 300], "image_url_150x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/9,0,1191,799,150,101/0-0-0/f3663361-70ad-4ac6-8d71-0133b53e3863/1/2/Inclusive3.png?fjkss=exp=2012788558~hmac=07646b262e534d8d8647a38b05a58d0df78dda09e788d95fb16c46854d74a6d3", "image_dimensions_150x0": [150, 101], "image_uncropped_dimensions_150x0": [150, 99], "image_url_0x150": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/9,0,1191,799,222,150/0-0-0/f3663361-70ad-4ac6-8d71-0133b53e3863/1/2/Inclusive3.png?fjkss=exp=2012788558~hmac=1c71ecb1041b0112d374d06dd47e5e92c250bfa503efe3a197b8dd821bdc2a4e", "image_dimensions_0x150": [221, 150], "image_uncropped_dimensions_0x150": [225, 150], "image_url_0x1200": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/9,0,1191,799,1775,1200/0-0-0/f3663361-70ad-4ac6-8d71-0133b53e3863/1/2/Inclusive3.png?fjkss=exp=2012788558~hmac=6ac111175448cae9107a331ada8c5cee4a50f618d253a3e30cae9251dd79f2b1", "image_dimensions_0x1200": [1775, 1200], "image_uncropped_dimensions_0x1200": [1802, 1200], "image_url_1600x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/9,0,1191,799,1600,1082/0-0-0/f3663361-70ad-4ac6-8d71-0133b53e3863/1/2/Inclusive3.png?fjkss=exp=2012788558~hmac=79ea531b0f4d11f6b645af04f198abd83f18d55c9e5b62a97c5e9d8b3d14cef0", "image_dimensions_1600x0": [1600, 1081], "image_uncropped_dimensions_1600x0": [1600, 1065], "image_url_1200x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/9,0,1191,799,1200,811/0-0-0/f3663361-70ad-4ac6-8d71-0133b53e3863/1/2/Inclusive3.png?fjkss=exp=2012788558~hmac=70755d1fe6eaeba38997359009938cc32e53e0f3ce4f1177a29553514b855bdd", "image_dimensions_1200x0": [1200, 811], "image_uncropped_dimensions_1200x0": [1200, 799], "image_url_800x800": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/9,0,1191,799,800,800/0-0-0/f3663361-70ad-4ac6-8d71-0133b53e3863/1/2/Inclusive3.png?fjkss=exp=2012788558~hmac=7d6c465f5c3abf1fdca5732e2b429f0a09523521448ac79c7cc3596ebd1ff8a5", "image_dimensions_800x800": [800, 800], "image_uncropped_dimensions_800x800": [800, 800], "image_url_600x600": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/9,0,1191,799,600,600/0-0-0/f3663361-70ad-4ac6-8d71-0133b53e3863/1/2/Inclusive3.png?fjkss=exp=2012788558~hmac=4b3341bf1f1c3cdf71e82fa8b8c855d7118305c02234521790e3271683cca384", "image_dimensions_600x600": [600, 600], "image_uncropped_dimensions_600x600": [600, 600], "image_url_400x400": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/9,0,1191,799,400,400/0-0-0/f3663361-70ad-4ac6-8d71-0133b53e3863/1/2/Inclusive3.png?fjkss=exp=2012788558~hmac=232da5adf5b36c973d71917fad1239104fbddc2a49d0c9be74125d6b34c0b620", "image_dimensions_400x400": [400, 400], "image_uncropped_dimensions_400x400": [400, 400], "image_url_300x300": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/9,0,1191,799,300,300/0-0-0/f3663361-70ad-4ac6-8d71-0133b53e3863/1/2/Inclusive3.png?fjkss=exp=2012788558~hmac=c005700bdd3c7bae95a007e647120da1bea8e7aa1e9e78689a8dc66c96087b82", "image_dimensions_300x300": [300, 300], "image_uncropped_dimensions_300x300": [300, 300], "image_url_200x200": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/9,0,1191,799,200,200/0-0-0/f3663361-70ad-4ac6-8d71-0133b53e3863/1/2/Inclusive3.png?fjkss=exp=2012788558~hmac=cd985156e22a5a538e306add1bdbea92f61237897859b78848674bfbe43d780d", "image_dimensions_200x200": [200, 200], "image_uncropped_dimensions_200x200": [200, 200], "image_url_100x100": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/9,0,1191,799,100,100/0-0-0/f3663361-70ad-4ac6-8d71-0133b53e3863/1/2/Inclusive3.png?fjkss=exp=2012788558~hmac=e0d30b5a90a2cb2c71b8d25b90caf21997c1b497474bcd5dd3782cd8bdd505c2", "image_dimensions_100x100": [100, 100], "image_uncropped_dimensions_100x100": [100, 100], "image_url_40x40": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/9,0,1191,799,40,40/0-0-0/f3663361-70ad-4ac6-8d71-0133b53e3863/1/2/Inclusive3.png?fjkss=exp=2012788558~hmac=22964c81e48afe1f495c8ca88ad550f67b02aa0183bf55d966a9a3a73b6a63d6", "image_dimensions_40x40": [40, 40], "image_uncropped_dimensions_40x40": [40, 40], "image_url_600x405": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/9,0,1191,799,600,405/0-0-0/f3663361-70ad-4ac6-8d71-0133b53e3863/1/2/Inclusive3.png?fjkss=exp=2012788558~hmac=08f0163494fcd4aa4e9f10e1269468b353565babe67b2189a7f732527000755c", "image_dimensions_600x405": [600, 405], "image_uncropped_dimensions_600x405": [600, 405], "image_url_400x270": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/9,0,1191,799,400,270/0-0-0/f3663361-70ad-4ac6-8d71-0133b53e3863/1/2/Inclusive3.png?fjkss=exp=2012788558~hmac=ac1e1fab985c352248e1db39af6ed16df57e40afb09da2415051b4cff57421a1", "image_dimensions_400x270": [400, 270], "image_uncropped_dimensions_400x270": [400, 270], "image_url_300x203": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/9,0,1191,799,300,203/0-0-0/f3663361-70ad-4ac6-8d71-0133b53e3863/1/2/Inclusive3.png?fjkss=exp=2012788558~hmac=f915d5a1cffd4468b6affee571a726941747c14e6064dcac10cab0fe292a49f1", "image_dimensions_300x203": [300, 203], "image_uncropped_dimensions_300x203": [300, 203], "image_url_960x648": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/9,0,1191,799,960,648/0-0-0/f3663361-70ad-4ac6-8d71-0133b53e3863/1/2/Inclusive3.png?fjkss=exp=2012788558~hmac=edb3b87a6e43631a0549c845908d7284a6074bd556074ab0f457fa93801de828", "image_dimensions_960x648": [960, 648], "image_uncropped_dimensions_960x648": [960, 648], "image_url_200x135": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/9,0,1191,799,200,135/0-0-0/f3663361-70ad-4ac6-8d71-0133b53e3863/1/2/Inclusive3.png?fjkss=exp=2012788558~hmac=0afb7485ee67cae87ad664b51f41508f1ee843f2c92b484f1f2dcaf702b8e058", "image_dimensions_200x135": [200, 135], "image_uncropped_dimensions_200x135": [200, 135], "image_url_640x264": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/9,0,1191,799,640,264/0-0-0/f3663361-70ad-4ac6-8d71-0133b53e3863/1/2/Inclusive3.png?fjkss=exp=2012788558~hmac=0f433518431961423aec051cec49d5cec0b9ea8d910150f0b6ae016c3e2e304d", "image_dimensions_640x264": [640, 264], "image_uncropped_dimensions_640x264": [640, 264], "image_url_750x264": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/9,0,1191,799,750,264/0-0-0/f3663361-70ad-4ac6-8d71-0133b53e3863/1/2/Inclusive3.png?fjkss=exp=2012788558~hmac=deb4850582d5a8f2b186db72e529fa5b8de05ac82392f646e9f1db5142ac9fe2", "image_dimensions_750x264": [750, 264], "image_uncropped_dimensions_750x264": [750, 264], "image_url_1242x264": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/9,0,1191,799,1242,264/0-0-0/f3663361-70ad-4ac6-8d71-0133b53e3863/1/2/Inclusive3.png?fjkss=exp=2012788558~hmac=24fe4bda78ec8a9879bedb09389696ff763eb9514f6b84e3e3f75fe895574bfd", "image_dimensions_1242x264": [1242, 264], "image_uncropped_dimensions_1242x264": [1242, 264], "image_url_190x60": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/9,0,1191,799,190,60/0-0-0/f3663361-70ad-4ac6-8d71-0133b53e3863/1/2/Inclusive3.png?fjkss=exp=2012788558~hmac=8a3dc058921e3d3ed6d0f742f0749abf6cf7f1b9a121de1b19856f75d3ffa6a6", "image_dimensions_190x60": [190, 60], "image_uncropped_dimensions_190x60": [190, 60], "image_url_750x90": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/9,0,1191,799,750,90/0-0-0/f3663361-70ad-4ac6-8d71-0133b53e3863/1/2/Inclusive3.png?fjkss=exp=2012788558~hmac=5b92df790eccf4250a50199d87b98c20575577368724a5f346cd05b853c4c896", "image_dimensions_750x90": [750, 90], "image_uncropped_dimensions_750x90": [750, 90], "image_url_1600x1200": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/9,0,1191,799,1600,1200/0-0-0/f3663361-70ad-4ac6-8d71-0133b53e3863/1/2/Inclusive3.png?fjkss=exp=2012788558~hmac=964ed2841d0094f83014e8e8c0d00baae36897b0e507a000d8bf8b383607f821", "image_dimensions_1600x1200": [1600, 1200], "image_uncropped_dimensions_1600x1200": [1600, 1200] }, { "id": 166225095, "type": "linked_image", "copy_alignment": "only", "copy": "Surface Remix", "width": 0, "copy_width": 0, "scaled_image_width": 550, "link_url": "/surface-remix", "nested_link_url": "/design/surface-remix", "open_in_new_window": false, "tag": null, "link_type": "internal", "link_value": "11813752", "alt_text": "", "linked_page_type": "content", "linked_page_name": "Surface Remix", "is_title_page": false, "dominant_color": "#F3F3F3", "image_url_2500x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,2500,1689/0-0-0/783f76d8-bd9c-48d7-944e-77440be5849c/1/2/SurfaceHands2.png?fjkss=exp=2012788558~hmac=cc4dd3c888b4cdfa972e7495ff8fd638a519cc650d55f17e417e96aac85e7977", "image_dimensions_2500x0": [2500, 1689], "image_uncropped_dimensions_2500x0": [2500, 1704], "image_url_900x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,900,608/0-0-0/783f76d8-bd9c-48d7-944e-77440be5849c/1/2/SurfaceHands2.png?fjkss=exp=2012788558~hmac=9915e4a57ba26e0dc7cda36d0ab3f5ec128ffe1ad1340b0c38c0a5d1f0b44add", "image_dimensions_900x0": [900, 608], "image_uncropped_dimensions_900x0": [900, 613], "image_url_700x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,700,473/0-0-0/783f76d8-bd9c-48d7-944e-77440be5849c/1/2/SurfaceHands2.png?fjkss=exp=2012788558~hmac=f1ea50713b5daebb1617e8bea8553f54dd7188b3b9ffaed56532c2f9983d713f", "image_dimensions_700x0": [700, 472], "image_uncropped_dimensions_700x0": [700, 477], "image_url_550x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,550,372/0-0-0/783f76d8-bd9c-48d7-944e-77440be5849c/1/2/SurfaceHands2.png?fjkss=exp=2012788558~hmac=9723f7284f243c7f132d986f28daa97c99417b83f5a8a6df1d11e43de47db993", "image_dimensions_550x0": [550, 371], "image_uncropped_dimensions_550x0": [550, 375], "image_url_400x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,400,270/0-0-0/783f76d8-bd9c-48d7-944e-77440be5849c/1/2/SurfaceHands2.png?fjkss=exp=2012788558~hmac=1d900433f0b79bb6e0862dcc64fb8e52fd917ab9de0af66fdd7cacd70f97bc19", "image_dimensions_400x0": [400, 270], "image_uncropped_dimensions_400x0": [400, 272], "image_url_300x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,300,203/0-0-0/783f76d8-bd9c-48d7-944e-77440be5849c/1/2/SurfaceHands2.png?fjkss=exp=2012788558~hmac=bd35afaee617773e3b3628865ffae263459d44c9f666252d599ceb9fef73de16", "image_dimensions_300x0": [300, 202], "image_uncropped_dimensions_300x0": [300, 204], "image_url_0x900": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,1332,900/0-0-0/783f76d8-bd9c-48d7-944e-77440be5849c/1/2/SurfaceHands2.png?fjkss=exp=2012788558~hmac=865753031907fb2fc01f624af5cbf1645252ab20838fbb5b0911e1094e794773", "image_dimensions_0x900": [1331, 900], "image_uncropped_dimensions_0x900": [1319, 900], "image_url_0x700": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,1036,700/0-0-0/783f76d8-bd9c-48d7-944e-77440be5849c/1/2/SurfaceHands2.png?fjkss=exp=2012788558~hmac=dc2afae54ad627f7f26d2d1fb5b18339c0568fbcc3db47695bc5325850c68d21", "image_dimensions_0x700": [1035, 700], "image_uncropped_dimensions_0x700": [1026, 700], "image_url_0x550": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,814,550/0-0-0/783f76d8-bd9c-48d7-944e-77440be5849c/1/2/SurfaceHands2.png?fjkss=exp=2012788558~hmac=f48e8f8b869b5065ee2485789daa55cd2fa31f604f77629fd099d8719d0de499", "image_dimensions_0x550": [813, 550], "image_uncropped_dimensions_0x550": [806, 550], "image_url_0x400": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,592,400/0-0-0/783f76d8-bd9c-48d7-944e-77440be5849c/1/2/SurfaceHands2.png?fjkss=exp=2012788558~hmac=274ff31c8ce1b357c8100d04cce5bcd09ff2389d3f0e31a11fd31d4418643b80", "image_dimensions_0x400": [591, 400], "image_uncropped_dimensions_0x400": [586, 400], "image_url_0x300": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,444,300/0-0-0/783f76d8-bd9c-48d7-944e-77440be5849c/1/2/SurfaceHands2.png?fjkss=exp=2012788558~hmac=fdcc6be36e07923062639b50cd32b3f80ac1868e5cacd1bcce4faed4f5be5c5f", "image_dimensions_0x300": [443, 300], "image_uncropped_dimensions_0x300": [439, 300], "image_url_150x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,150,101/0-0-0/783f76d8-bd9c-48d7-944e-77440be5849c/1/2/SurfaceHands2.png?fjkss=exp=2012788558~hmac=df1a54999c129bbacf7f7b257c5b619a04891ce47dd9e210d8c5f5e8983b0623", "image_dimensions_150x0": [150, 101], "image_uncropped_dimensions_150x0": [150, 102], "image_url_0x150": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,222,150/0-0-0/783f76d8-bd9c-48d7-944e-77440be5849c/1/2/SurfaceHands2.png?fjkss=exp=2012788558~hmac=bd0047b9d97d51a70f89a38bdcb1ee7f88454955d9d2df711dd69a2d5532e983", "image_dimensions_0x150": [221, 150], "image_uncropped_dimensions_0x150": [219, 150], "image_url_0x1200": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,1776,1200/0-0-0/783f76d8-bd9c-48d7-944e-77440be5849c/1/2/SurfaceHands2.png?fjkss=exp=2012788558~hmac=ad0283430b40754839510cfbdf058d426ef260b695e43ed9bd96f25c425f06e4", "image_dimensions_0x1200": [1775, 1200], "image_uncropped_dimensions_0x1200": [1759, 1200], "image_url_1600x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,1600,1081/0-0-0/783f76d8-bd9c-48d7-944e-77440be5849c/1/2/SurfaceHands2.png?fjkss=exp=2012788558~hmac=59f561206d6a8044f3429e1be30a487e336eb5bd00da4e992ca14be79416dfee", "image_dimensions_1600x0": [1600, 1081], "image_uncropped_dimensions_1600x0": [1600, 1091], "image_url_1200x0": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,1200,811/0-0-0/783f76d8-bd9c-48d7-944e-77440be5849c/1/2/SurfaceHands2.png?fjkss=exp=2012788558~hmac=50f9dd816045d6ef6b404a7f3960dfb7a1fb23bfe74756086c8e2151547757ab", "image_dimensions_1200x0": [1200, 810], "image_uncropped_dimensions_1200x0": [1200, 818], "image_url_800x800": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,800,800/0-0-0/783f76d8-bd9c-48d7-944e-77440be5849c/1/2/SurfaceHands2.png?fjkss=exp=2012788558~hmac=f425d20eb9b8a50bf80f776eb757dfd64215d61c86baffc4de687f09c6840a93", "image_dimensions_800x800": [800, 800], "image_uncropped_dimensions_800x800": [800, 800], "image_url_600x600": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,600,600/0-0-0/783f76d8-bd9c-48d7-944e-77440be5849c/1/2/SurfaceHands2.png?fjkss=exp=2012788558~hmac=fe629d5dbf91c7cd735dd3a874fd75797efe9104d1f064361ee78cfeb1b71605", "image_dimensions_600x600": [600, 600], "image_uncropped_dimensions_600x600": [600, 600], "image_url_400x400": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,400,400/0-0-0/783f76d8-bd9c-48d7-944e-77440be5849c/1/2/SurfaceHands2.png?fjkss=exp=2012788558~hmac=ae8e0d01f8c21374c73bf0be53fb7e02ac4daf606622da3e593eee757e6c44da", "image_dimensions_400x400": [400, 400], "image_uncropped_dimensions_400x400": [400, 400], "image_url_300x300": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,300,300/0-0-0/783f76d8-bd9c-48d7-944e-77440be5849c/1/2/SurfaceHands2.png?fjkss=exp=2012788558~hmac=9c3013deddee325e4408fa8bcdc4fdf7d6881936b34daa0c2950ef799e404375", "image_dimensions_300x300": [300, 300], "image_uncropped_dimensions_300x300": [300, 300], "image_url_200x200": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,200,200/0-0-0/783f76d8-bd9c-48d7-944e-77440be5849c/1/2/SurfaceHands2.png?fjkss=exp=2012788558~hmac=7d1c662a06c55da54f16d01d96d43b128ced5383e19a812ddaf642818ccf0989", "image_dimensions_200x200": [200, 200], "image_uncropped_dimensions_200x200": [200, 200], "image_url_100x100": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,100,100/0-0-0/783f76d8-bd9c-48d7-944e-77440be5849c/1/2/SurfaceHands2.png?fjkss=exp=2012788558~hmac=092e9163e6a1480fddd1df105e623b6b35cc2f2f0faf807cabc5707e5ad00d90", "image_dimensions_100x100": [100, 100], "image_uncropped_dimensions_100x100": [100, 100], "image_url_40x40": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,40,40/0-0-0/783f76d8-bd9c-48d7-944e-77440be5849c/1/2/SurfaceHands2.png?fjkss=exp=2012788558~hmac=3c0b2a05ae4810725df7d83feed9aa3dcc0cf7401040733528fc3e6fc8abf578", "image_dimensions_40x40": [40, 40], "image_uncropped_dimensions_40x40": [40, 40], "image_url_600x405": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,600,405/0-0-0/783f76d8-bd9c-48d7-944e-77440be5849c/1/2/SurfaceHands2.png?fjkss=exp=2012788558~hmac=8f0b06fa10a8656b55e314a3cb542ce7b9e7dcd7be472a149cdea8ee80ed9e23", "image_dimensions_600x405": [600, 405], "image_uncropped_dimensions_600x405": [600, 405], "image_url_400x270": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,400,270/0-0-0/783f76d8-bd9c-48d7-944e-77440be5849c/1/2/SurfaceHands2.png?fjkss=exp=2012788558~hmac=1d900433f0b79bb6e0862dcc64fb8e52fd917ab9de0af66fdd7cacd70f97bc19", "image_dimensions_400x270": [400, 270], "image_uncropped_dimensions_400x270": [400, 270], "image_url_300x203": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,300,203/0-0-0/783f76d8-bd9c-48d7-944e-77440be5849c/1/2/SurfaceHands2.png?fjkss=exp=2012788558~hmac=bd35afaee617773e3b3628865ffae263459d44c9f666252d599ceb9fef73de16", "image_dimensions_300x203": [300, 203], "image_uncropped_dimensions_300x203": [300, 203], "image_url_960x648": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,960,648/0-0-0/783f76d8-bd9c-48d7-944e-77440be5849c/1/2/SurfaceHands2.png?fjkss=exp=2012788558~hmac=e1104e0b392bdea68c178d81c9b07f81a31a6cf10437a89df1b346b4defecdeb", "image_dimensions_960x648": [960, 648], "image_uncropped_dimensions_960x648": [960, 648], "image_url_200x135": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,200,135/0-0-0/783f76d8-bd9c-48d7-944e-77440be5849c/1/2/SurfaceHands2.png?fjkss=exp=2012788558~hmac=b856a85134aeacc0a8db829317954b3e6396c65675e41063772d63decb5a43cf", "image_dimensions_200x135": [200, 135], "image_uncropped_dimensions_200x135": [200, 135], "image_url_640x264": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,640,264/0-0-0/783f76d8-bd9c-48d7-944e-77440be5849c/1/2/SurfaceHands2.png?fjkss=exp=2012788558~hmac=a677af3aa434a90260ee9437037c873636f1d0d34289782960a56bc464525f60", "image_dimensions_640x264": [640, 264], "image_uncropped_dimensions_640x264": [640, 264], "image_url_750x264": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,750,264/0-0-0/783f76d8-bd9c-48d7-944e-77440be5849c/1/2/SurfaceHands2.png?fjkss=exp=2012788558~hmac=379445c1abec85f42099ea0b10fa9b42eaac22264c60df4f5ac79a28b738c317", "image_dimensions_750x264": [750, 264], "image_uncropped_dimensions_750x264": [750, 264], "image_url_1242x264": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,1242,264/0-0-0/783f76d8-bd9c-48d7-944e-77440be5849c/1/2/SurfaceHands2.png?fjkss=exp=2012788558~hmac=98318b1fa13ab2e18a9adb22f23a3c7f9b92c490efad0015a0c3b4bf0e330008", "image_dimensions_1242x264": [1242, 264], "image_uncropped_dimensions_1242x264": [1242, 264], "image_url_190x60": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,190,60/0-0-0/783f76d8-bd9c-48d7-944e-77440be5849c/1/2/SurfaceHands2.png?fjkss=exp=2012788558~hmac=e645af71e9c681b7704bf5d4d6e13d508c27724ddf3fcc086b30579b27c03c09", "image_dimensions_190x60": [190, 60], "image_uncropped_dimensions_190x60": [190, 60], "image_url_750x90": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,750,90/0-0-0/783f76d8-bd9c-48d7-944e-77440be5849c/1/2/SurfaceHands2.png?fjkss=exp=2012788558~hmac=518de720a2167aee5a9cd41b2b7aefbb7edddb989369e787d739adffd6f12afe", "image_dimensions_750x90": [750, 90], "image_uncropped_dimensions_750x90": [750, 90], "image_url_1600x1200": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,651,1600,1200/0-0-0/783f76d8-bd9c-48d7-944e-77440be5849c/1/2/SurfaceHands2.png?fjkss=exp=2012788558~hmac=318d79d42914b6247079c6028a97e29fa498848dced08c79c84f050da4eab9eb", "image_dimensions_1600x1200": [1600, 1200], "image_uncropped_dimensions_1600x1200": [1600, 1200] }], "any_asset_copy": false, "content_editable": false, "has_site_popups": false, "content_page_inject_css": "application/content_pages/content_page_inject.css", "content_page_inject_js": "application/content_pages_redux/content_page_editor/content_page_inject.js", "canonical_url": "https://www.aakashsubedi.com.np" }, "paths": { "root": "/", "app_base": "https://www.format.com", "theme_stylesheet": "//mariannegiesemann.format.com/stylesheet.css?v=2023-05-29T22:31:55Z", "using": "https://www.format.com/l/your_new_portfolio?referrer=https%3A%2F%2Fmariannegiesemann.format.com&utm_medium=user-site&utm_source=649267#exhibition" }, "theme": { "body_typography": { "font-family": "\"Proxima Nova Regular\", sans-serif", "color": "#353535", "font-size": "16", "line-height": "1.7" }, "small_text_typography": { "font-family": "\"Proxima Nova Regular\", sans-serif", "color": "#494949", "font-size": "12", "line-height": "1.7" }, "form_labels_typography": { "font-family": "\"Proxima Nova Regular\", sans-serif", "color": "#232323", "font-size": "16" }, "form_border_color": "#bebebe", "heading_text": { "font-family": "\"Proxima Nova Black\", sans-serif", "font-weight": "normal", "color": "#232323", "font-size": "24", "line-height": "1.4" }, "large_heading_text": { "font-family": "\"Proxima Nova Black\", sans-serif", "font-weight": "normal", "color": "#232323", "font-size": "36", "line-height": "1.4" }, "button_typography": { "font-family": "\"Proxima Nova Bold\", sans-serif", "color": "#f5f5f5", "font-size": "16" }, "button_color": "#5b6171", "button_border_color": "#5b6171", "button_border_radius": "100", "vertical_space": "24", "animate_loading": true, "full_bleed_space": "Default", "store_columns": "Four", "store_thumbnails_space": "Normal", "store_layout_style": "Square", "store_masonry_order": false, "store_label_alignment": "Center", "store_label_typography": { "font-family": "\"Proxima Nova Bold\", sans-serif", "font-weight": "normal", "color": "#7f7f7f", "font-size": "28" }, "store_price_typography": { "font-family": "\"Proxima Nova Regular\", sans-serif", "color": "#7f7f7f", "font-size": 16, "line-height": 1.5 }, "store_button_typography": { "font-family": "\"Proxima Nova Regular\", sans-serif", "color": "#444444", "font-size": "16" }, "store_button_color": "#f5f5f5", "store_button_border_color": "#444444", "store_button_border_radius": "2", "back_to_store_link": true, "product_description_position": "Right", "proofing_header_image_width": "Default", "proofing_header_image_overlay_color": "#000000", "proofing_header_image_overlay_opacity": "0", "proofing_header_image_overlay_text_typography": { "font-family": "\"Proxima Nova Bold\", sans-serif", "font-weight": "normal", "color": "#FFFFFF", "font-size": 80, "line-height": 1.5 }, "proofing_border": true, "proofing_thumbnail_size": "Small", "proofing_thumbnail_layout": "Grid", "proofing_thumbnail_spacing": "20", "proofing_grid_style": "Fixed", "proofing_button_typography": { "font-family": "\"Proxima Nova Regular\", sans-serif", "color": "#444444", "font-size": "16" }, "proofing_button_color": "#f5f5f5", "proofing_button_border_color": "#444444", "proofing_button_border_radius": "2", "proofing_page_title_typography": { "font-family": "\"Proxima Nova Bold\", sans-serif", "color": "#232323", "font-size": "28", "font-weight": "normal", "line-height": 1.5 }, "proofing_thumbnail_label_alignment": "Left", "proofing_thumbnail_label_typography": { "font-family": "\"Proxima Nova Regular\", sans-serif", "color": "#444444", "font-size": "16", "font-weight": "normal" }, "background_color": "#f5f5f5", "logo_image": null, "logo_trim": false, "logo_type_toggle": "text", "logo_size": "50", "logo_text": "AAKASH SUBEDI", "logo_typography": { "color": "#000000", "font-family": "\"Proxima Nova Black\", sans-serif", "font-weight": "normal", "font-size": "22", "font-style": "normal", "hover": { "color": "#5b6171" } }, "text_typography": { "color": "#444444", "font-family": "\"Proxima Nova Regular\", sans-serif", "font-size": "16", "line-height": 1.5 }, "headline_typography": { "color": "#232323", "font-family": "\"Proxima Nova Bold\", sans-serif", "font-size": "28", "font-weight": "normal" }, "link_typography": { "color": "#232323", "font-style": "normal", "font-weight": "normal", "text-decoration": "underline", "hover": { "color": "#5b6171", "text-decoration": "underline" } }, "post_text": "Aakash Subedi ©&nbsp;2023&nbsp;", "post_typography": { "color": "#888888", "font-family": "\"Proxima Nova Regular\", sans-serif", "font-size": "12" }, "menu_typography": { "color": "#c3c3c3", "font-family": "\"Proxima Nova Black\", sans-serif", "font-size": "18", "font-weight": "normal", "line-height": "1.6", "hover": { "color": "#5b6171", "text-decoration": "none" }, "selected": { "color": "#000000", "text-decoration": "none" } }, "menu_collapsed_typography": { "font-family": "\"Proxima Nova Black\", sans-serif", "font-size": "36", "font-weight": "normal", "line-height": 1.3 }, "menu_category_typography": { "color": "#999999", "font-weight": "normal" }, "menu_sticky": "Fixed", "menu_layout": false, "menu_icons": "#232323", "gallery_caption_typography": { "color": "#aaaaaa", "font-size": "12", "line-height": 1.2 }, "gallery_images": true, "gallery_video_inline": false, "gallery_caption_style": "Hover", "listing_caption_typography": { "color": "#ffffff", "font-family": "\"Proxima Nova Regular\", sans-serif", "font-style": "normal", "font-weight": "bold", "font-size": "16", "line-height": 1.4 }, "listing_caption_style": "Hover", "listing_caption_style_mobile": false, "listing_layout_type": "Landscape", "social_links_typography": { "color": "#888888", "font-size": "16", "font-weight": "normal", "hover": { "color": "#5b6171" } }, "social_links_style": "Icon", "icon1": "Instagram", "icon1text": "https://www.instagram.com/aakashsubedy", "icon2": "Twitter", "icon2text": "https://www.linkedin.com/in/aakashsubedi007/", "icon3": "LinkedIn", "icon3text": "https://www.linkedin.com/in/aakashsubedi007/", "icon4": "None", "icon4text": "https://null", "icon5": "None", "icon5text": "https://null", "show_social_sharing": false, "blog_title_typography": { "font-family": "\"Proxima Nova Bold\", sans-serif", "color": "#000000", "font-size": "28", "font-style": "normal", "font-weight": "normal", "hover": { "text-decoration": "none", "color": "#5b6171" } }, "blog_body_typography": { "font-family": "\"Proxima Nova Regular\", sans-serif", "color": "#444444", "line-height": "1.5", "font-size": "16" }, "blog_date_typography": { "font-size": "16" }, "blog_caption_typography": { "font-family": "\"Proxima Nova Regular\", sans-serif", "font-size": "12", "color": "#444444" }, "blog_images_slideshow_color": "Light", "base_background_color": "#f2f2f2", "base_text_color": "#7f7f7f", "base_accent_color": "#000000", "base_heading_font": { "font-family": "\"Proxima Nova Bold\", sans-serif", "font-weight": "normal" }, "base_body_font": { "font-family": "\"Proxima Nova Regular\", sans-serif" }, "base_font_size": "0", "logo_image_thumbnails": null, "logo_image_trimmed": null }, "meta": { "authorized": true, "site_authorized": true, "currency_entity": "$", "currency_code": "USD", "has_active_store": false, "usable_discounts": false, "form_authenticity_token": "5nh_xPb4Foz3FdwIYvWJDMt5U2MNZ5gI0KyZn2hW-COqISoOhHaj1H3KOueIJWo6sKWmQacy_HoFbRlqho9dlw", "theme_version": 70, "theme_name": "Exhibition", "password_submitted": false, "site_password_submitted": false, "profession_identifier": 214, "using": { "right": 20, "bottom": 20 }, "explicit": false, "mobile": {}, "meta_tags": { "current_path": "/", "image_protection_blurb": "Copyright © Aakash Subedi", "description": "Selected works in product, UX/UI design and illustration.", "og:site_name": "Aakash Subedi's Design Portfolio", "og:title": "Design - Aakash Subedi's Design Portfolio", "og:type": "website", "og:url": "https://www.aakashsubedi.com.np/design", "og:image": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,650,1600,1200/0-0-0/8ea90253-97b4-4729-b4f7-f45c6fd7ffba/1/2/Reels5.gif?fjkss=exp=2012788558~hmac=3d4e411271ac9b44aa3f419b29c7051ad70787700cd5e2f0386a5fcfca04c04d", "og:image:width": 960, "og:image:height": 653, "og:description": "Selected works in product, UX/UI design and illustration.", "twitter:card": "summary_large_image", "twitter:title": "Design - Aakash Subedi's Design Portfolio", "twitter:description": "Selected works in product, UX/UI design and illustration." }, "meta_description": "Selected works in product, UX/UI design and illustration.", "social_description": "Selected works in product, UX/UI design and illustration.", "template_name": "listing", "sample_page": false, "cloud_name": "format-com-cld", "stripe_publishable_key": null, "api_version": 2, "fb_url": "https://www.aakashsubedi.com.np/design", "fb_image": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,3,959,650,1600,1200/0-0-0/8ea90253-97b4-4729-b4f7-f45c6fd7ffba/1/2/Reels5.gif?fjkss=exp=2012788558~hmac=3d4e411271ac9b44aa3f419b29c7051ad70787700cd5e2f0386a5fcfca04c04d", "fb_image_width": 960, "fb_image_height": 653, "title": "Design - Aakash Subedi's Design Portfolio" }, "no_turbolinks_paths": [], "site": { "custom_head_content": null, "fav_icon_url": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,16,16,16,16/0-0-0/99c853ca-57e1-4ddd-8829-82eaff04022e/1/1/ICO1.png?fjkss=exp=2012788558~hmac=ce6ba48530c2c85ef7273b99bcf92ed5153943d35927a45313e05ee40689f532", "hide_using_4ormat": false, "image_protection_blurb": "Copyright © Aakash Subedi", "instagram_access_token": null, "invalidated_at": 1685399515, "meta_description": "Aakash Subedi is a designer and illustrator from Mexico City, living in Seattle.", "meta_keywords": "", "name": "Aakash Subedi's Design Portfolio", "png_favicons": { "16": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,16,16,16,16/0-0-0/99c853ca-57e1-4ddd-8829-82eaff04022e/1/1/ICO1.png?fjkss=exp=2012788558~hmac=ce6ba48530c2c85ef7273b99bcf92ed5153943d35927a45313e05ee40689f532", "32": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,16,16,32,32/0-0-0/99c853ca-57e1-4ddd-8829-82eaff04022e/1/1/ICO1.png?fjkss=exp=2012788558~hmac=733004b14ecc56aaf23e05d559227904b9b0de19b83906d9a4e4077f9fa87f1f", "96": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,16,16,96,96/0-0-0/99c853ca-57e1-4ddd-8829-82eaff04022e/1/1/ICO1.png?fjkss=exp=2012788558~hmac=518af2d3e95feef6118b0d7e040ea8a86439fd2ab4f3613095f167b2218ca45f", "192": "https://format.creatorcdn.com/c2837452-62b4-4eb3-b08d-6d28b9823d34/0/0/0/0,0,16,16,192,192/0-0-0/99c853ca-57e1-4ddd-8829-82eaff04022e/1/1/ICO1.png?fjkss=exp=2012788558~hmac=a3dbddc48c8df2f8c12520adc2392ef1cfc6ec2047f56c01002e91a9c9b223e8" }, "protect_images": true, "url": "https://www.aakashsubedi.com.np", "user_google_analytics_key": null, "desktop_screenshot_url": "https://screenbot.format.com/?height=1000&sig=3d4fb52aab3dadab663fabdac4f220a7d1073dd0b5d71617a786b48139032faa&url=https%3A%2F%2Fmariannegiesemann.format.com&width=1400", "mobile_screenshot_url": "https://screenbot.format.com/?height=667&sig=15be566739b0a83aa15b1745853debcef09374a37611c4cbdd5e7a606984626a&url=https%3A%2F%2Fmariannegiesemann.format.com&width=375" } };
+    //]]>
+  </script>
+
+  <script src='/static/theme_api/v2/4ormat-90922ef41128d245f68c9e8b2a3902b95fa9a9a1409f6c96f7e7e636fd7e803d.js'
+    type='text/javascript'></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- -->
+
+
+
+
+  <div class="mask"></div>
+
+</body>
+
+</html>
