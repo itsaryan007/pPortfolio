@@ -27,6 +27,84 @@
   display: table;
   clear: both;
 }
+
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+    }        
+        
+
+    #myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
     </style>
     
     <script type="text/javascript">
@@ -3743,24 +3821,6 @@
 
 
 
-                    <div class="_4ORMAT_content_page_row _4ormat_sort_item _4ORMAT_module_text_03"
-                        data-content-module-id="12984222" data-content-module-template-id="53"
-                        data-content-module-unique-id="" data-content-module-removable="true"
-                        data-content-module-category="text">
-                        <div class="twelvecol last">
-                            <div data-editable-type="text" id="text_1" class="  " data-force-html-mode="false"
-                                data-id="166293697" data-content-module-unique-id="">
-                                    
-                                    <img src="designimage/foodhub/casestudy.png" alt="">
-
-                                    </p>
-                            
-                            </div>
-                        </div>
-                    </div>
-
-
-
                     <div class="_4ORMAT_content_page_row _4ormat_sort_item _4ORMAT_module_layout_06"
                         data-content-module-id="12984223" data-content-module-template-id="31"
                         data-content-module-unique-id="" data-content-module-removable="true"
@@ -3786,23 +3846,6 @@
                             </div>
                         </div>
                     </div>
-                        <div class="fourcol last">
-                            <div data-croppable="true" data-default-shape="square" data-editable-type="image"
-                                data-height="380" data-landscape-ratio="4:3" data-linkable="true"
-                                data-portrait-ratio="3:4" data-width="380" id="image_1-12984223"
-                                data-default-img="images/bg.jpg" data-dom-id="image_1" data-link-type="none"
-                                data-link-value="" data-id="166293698" data-content-module-unique-id="">
-
-                                <a>
-
-
-                                    <img src="designimage/foodhub/cover.png" />
-                                </a>
-
-                            </div>
-                        </div>
-                    </div>
-
 
                     <div class="_4ORMAT_content_page_row _4ormat_sort_item _4ORMAT_module_text_05"
                         data-content-module-id="12984862" data-content-module-template-id="30"
@@ -3833,231 +3876,73 @@
 
 
 
-
-
-                    <div class="_4ORMAT_content_page_row _4ormat_sort_item _4ORMAT_module_layout_06"
-                        data-content-module-id="12984847" data-content-module-template-id="31"
-                        data-content-module-unique-id="" data-content-module-removable="true"
-                        data-content-module-category="layout">
-                        <div class="eightcol">
-                            <div data-editable-type="text" id="text_1" class="  " data-force-html-mode="false"
-                                data-id="166303831" data-content-module-unique-id="">
-
-                                <h2>Objectives</h2>
-                                <p>Some of the possible resolution could be:</p>
-                                <ul>
-                                    <li>Provide comprehensive restaurant information for informed decision-making.</li>
-                                    <li>SFacilitate easy discovery of specific food items and cuisines..</li>
-                                    <li>EStreamline the ordering process with customization and secure online payments.</li>
-                                    <li>Enable personalized profiles for managing favorite restaurants and food items.</li>
-                                    <li>Inefficient Restaurant Marketing and Promotions. </li>                                </ul>
-                            </div>
-                        </div>
-                        <div class="fourcol last">
-                            <div data-croppable="true" data-default-shape="square" data-editable-type="image"
-                                data-height="380" data-landscape-ratio="4:3" data-linkable="true"
-                                data-portrait-ratio="3:4" data-width="380" id="image_1-12984847"
-                                data-default-img="images/bg.jpg" data-dom-id="image_1" data-link-type="none"
-                                data-link-value="" data-id="166303830" data-content-module-unique-id="">
-
-
-
-                                <a>
-
-
-                                    <img src= "designimage/foodhub/objectives.png"/>
-
-
-                                </a>
-
-
-
-
-                            </div>
-                        </div>
                     </div>
 
-
-                    <div class="_4ORMAT_content_page_row _4ormat_sort_item _4ORMAT_module_layout_06"
-                        data-content-module-id="12984847" data-content-module-template-id="31"
-                        data-content-module-unique-id="" data-content-module-removable="true"
-                        data-content-module-category="layout">
-                        <div class="eightcol">
-                            <div data-editable-type="text" id="text_1" class="  " data-force-html-mode="false"
-                                data-id="166303831" data-content-module-unique-id="">
-
-                                <h2>Design Process</h2>
-                                <p>The Design thinking process was used for the design of the Foodhub application </p>
-                             
-                            </div>
-                        </div>
-  
-                          <p>
-                            </p>
-                                <a>
-
-                                    <img src= "designimage/foodhub/designprocess.png"/>
-
-                                </a>
-
-
-
-
-                        
-                        </div>
                     </div>
-
-
-                    <div class="_4ORMAT_content_page_row _4ormat_sort_item _4ORMAT_module_layout_06"
-                        data-content-module-id="12984847" data-content-module-template-id="31"
+                    <div class="_4ORMAT_content_page_row _4ormat_sort_item _4ORMAT_module_text_03"
+                        data-content-module-id="12984222" data-content-module-template-id="53"
                         data-content-module-unique-id="" data-content-module-removable="true"
-                        data-content-module-category="layout">
-                        <div class="eightcol">
+                        data-content-module-category="text">
+                        <div class="twelvecol last">
                             <div data-editable-type="text" id="text_1" class="  " data-force-html-mode="false"
-                                data-id="166303831" data-content-module-unique-id="">
+                                data-id="166293697" data-content-module-unique-id="">
+                                    
+                                    <img id="myImg" src="designimage/foodhub/casestudy.png" alt="Food Hub Case Study" style="width:100%;max-width:1900px">
 
-                                <h2>Style Guide</h2>
-                                <img src= "designimage/foodhub/styleGuide.png"/>
-                               
-
-                            </div>
-                        </div>
-                    </div>
-
-
-
-
-                    <div class="_4ORMAT_content_page_row _4ormat_sort_item _4ORMAT_module_layout_06"
-                        data-content-module-id="12984847" data-content-module-template-id="31"
-                        data-content-module-unique-id="" data-content-module-removable="true"
-                        data-content-module-category="layout">
-                        <div class="eightcol">
-                            <div data-editable-type="text" id="text_1" class="  " data-force-html-mode="false"
-                                data-id="166303831" data-content-module-unique-id="">
-
-                                <h2>User Persona</h2>
-                                <p>User persona text </p>
-                             
-                            </div>
-                        </div>
-  
-                          <p>
-                            </p>
-                                <a>
-
-                                    <img src= "designimage/foodhub/userPersona.png"/>
-
-                                </a>
-                            </p>
-
+                                    </p>
                             
-
-
-
-                        
-                        </div>
-
-                        <div class="_4ORMAT_content_page_row _4ormat_sort_item _4ORMAT_module_layout_06"
-                        data-content-module-id="12984847" data-content-module-template-id="31"
-                        data-content-module-unique-id="" data-content-module-removable="true"
-                        data-content-module-category="layout">
-                        <div class="eightcol">
-                            <div data-editable-type="text" id="text_1" class="  " data-force-html-mode="false"
-                                data-id="166303831" data-content-module-unique-id="">
-
-                                <h2>Empathy Map</h2>
-                                <p>Empathy map text </p>
-                             
                             </div>
                         </div>
-  
-                          <p>
-                            </p>
-                                <a>
-
-                                    <img src= "designimage/foodhub/empathyMap.png"/>
-
-                                </a>
-
-
-
-
-                        
-                        </div>
-
-
-                        <div class="_4ORMAT_content_page_row _4ormat_sort_item _4ORMAT_module_layout_06"
-                        data-content-module-id="12984847" data-content-module-template-id="31"
-                        data-content-module-unique-id="" data-content-module-removable="true"
-                        data-content-module-category="layout">
-                        <div class="eightcol">
-                            <div data-editable-type="text" id="text_1" class="  " data-force-html-mode="false"
-                                data-id="166303831" data-content-module-unique-id="">
-
-                                <h2>Information Architecture</h2>
-                                <p>Information architecture text </p>
-                             
-                            </div>
-                        </div>
-  
-                          <p>
-                            </p>
-                                <a>
-
-                                    <img src= "designimage/foodhub/informationArchitecture.png"/>
-
-                                </a>
-
-
-
-
-                        
-                        </div>
-
-                        <div class="_4ORMAT_content_page_row _4ormat_sort_item _4ORMAT_module_layout_06"
-                        data-content-module-id="12984847" data-content-module-template-id="31"
-                        data-content-module-unique-id="" data-content-module-removable="true"
-                        data-content-module-category="layout">
-                        <div class="eightcol">
-                            <div data-editable-type="text" id="text_1" class="  " data-force-html-mode="false"
-                                data-id="166303831" data-content-module-unique-id="">
-
-                                <h2>Visual Design</h2>
-                                <p>Visual Design text </p>
-                             
-                            </div>
-                        </div>
-  
-                          <p>
-                            </p>
-                                <a>
-
-                                    <img src= "designimage/foodhub/visualDesign.png"/>
-
-                                </a>
-                            </p>
-
-
-
-                        
                     </div>
-
-                    </div>
-
                    
                     </div>
 
+                    
+                   
 
-
-
+                    </div>
 
                 </div>
             </div>
-
-
-
-
         </div>
+
+        <!-- for image show -->    
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+          <span class="close">×</span>
+          <img class="modal-content" id="img01">
+          <div id="caption"></div>
+        </div>
+        
+        <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+        
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById("myImg");
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        img.onclick = function(){
+          modal.style.display = "block";
+          modalImg.src = this.src;
+          captionText.innerHTML = this.alt;
+        }
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() { 
+          modal.style.display = "none";
+        }
+        
+        // Close the modal when clicking anywhere outside the image
+        modal.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+        </script>
 
 
         <div class="pagination">
